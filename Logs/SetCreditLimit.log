@@ -1,0 +1,13 @@
+2024-03-13 16:18:40 INFO  Mylpgbooks:28 - Agencyid Entered
+2024-03-13 16:18:41 INFO  Mylpgbooks:30 - Password Entered
+2024-03-13 16:18:41 INFO  Mylpgbooks:53 - testCases.Tc_004_SetCreditLimit - Clicked On Master Data
+2024-03-13 16:18:43 INFO  Mylpgbooks:55 - testCases.Tc_004_SetCreditLimit - Clicked On SetCreditLimit
+2024-03-13 16:18:45 INFO  Mylpgbooks:58 - testCases.Tc_004_SetCreditLimit - Entered Pin
+2024-03-13 16:18:45 INFO  Mylpgbooks:60 - testCases.Tc_004_SetCreditLimit - Clicked On Submit Pin
+2024-03-13 16:18:47 INFO  Mylpgbooks:63 - testCases.Tc_004_SetCreditLimit - Clicked On Add Button
+2024-03-13 16:18:48 INFO  Mylpgbooks:65 - testCases.Tc_004_SetCreditLimit - Selected Customer
+2024-03-13 16:18:48 INFO  Mylpgbooks:67 - testCases.Tc_004_SetCreditLimit - Credit Limit Entered
+2024-03-13 16:18:48 INFO  Mylpgbooks:69 - testCases.Tc_004_SetCreditLimit - Control Selected
+2024-03-13 16:18:48 INFO  Mylpgbooks:71 - testCases.Tc_004_SetCreditLimit - Credit Days Entered
+2024-03-13 16:18:48 INFO  Mylpgbooks:73 - testCases.Tc_004_SetCreditLimit - Control2 Selected
+2024-03-13 16:18:51 INFO  Mylpgbooks:76 - testCases.Tc_004_SetCreditLimit - Selected Product

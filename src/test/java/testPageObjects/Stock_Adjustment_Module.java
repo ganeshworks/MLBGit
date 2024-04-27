@@ -60,7 +60,7 @@ public class Stock_Adjustment_Module {
 		driver.findElement(prod).click();
 		WebElement ss = driver.findElement(prod);
 		Select s=new Select(ss);
-		s.selectByIndex(2);
+		s.selectByIndex(10);
 	}
 	public void ClickonAdd() {
 		driver.findElement(AddBtn).click();

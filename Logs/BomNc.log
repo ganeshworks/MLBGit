@@ -1,0 +1,15 @@
+2024-03-13 13:58:55 INFO  Mylpgbooks:20 - testCases.Tc_001_BomNcAgencyid Entered
+2024-03-13 13:58:55 INFO  Mylpgbooks:22 - testCases.Tc_001_BomNcPassword Entered
+2024-03-13 13:58:55 INFO  Mylpgbooks:27 - testCases.Tc_001_BomNcClicked On Submit
+2024-03-13 13:58:56 INFO  Mylpgbooks:49 - testCases.Tc_001_BomNcClicked On MasterData
+2024-03-13 13:58:59 INFO  Mylpgbooks:52 - testCases.Tc_001_BomNcClicked On Product Master
+2024-03-13 13:59:00 INFO  Mylpgbooks:54 - testCases.Tc_001_BomNcClicked On BomNc Master
+2024-03-13 13:59:00 INFO  Mylpgbooks:56 - testCases.Tc_001_BomNcClicked On Add Button
+2024-03-13 13:59:02 INFO  Mylpgbooks:59 - testCases.Tc_001_BomNcEquipment Selected From List
+2024-03-13 13:59:05 INFO  Mylpgbooks:62 - testCases.Tc_001_BomNcClicked On Add Equipment
+2024-03-13 13:59:06 INFO  Mylpgbooks:64 - testCases.Tc_001_BomNcRegulator Selected From List
+2024-03-13 13:59:07 INFO  Mylpgbooks:66 - testCases.Tc_001_BomNcClicked On Add Regulator
+2024-03-13 13:59:07 INFO  Mylpgbooks:69 - testCases.Tc_001_BomNcConnection Type Selected 
+2024-03-13 13:59:10 INFO  Mylpgbooks:77 - testCases.Tc_001_BomNcArb Item Selected From List
+2024-03-13 13:59:10 INFO  Mylpgbooks:79 - testCases.Tc_001_BomNcClicked On Add Arb
+

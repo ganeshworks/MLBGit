@@ -1,0 +1,12 @@
+2024-03-13 17:11:49 INFO  Mylpgbooks:27 - Agencyid Entered
+2024-03-13 17:11:49 INFO  Mylpgbooks:29 - Password Entered
+2024-03-13 17:11:50 INFO  Mylpgbooks:53 - testCases.Tc_007_StaffMaster - Clicked On Master Data
+2024-03-13 17:11:54 INFO  Mylpgbooks:55 - testCases.Tc_007_StaffMaster - Clicked On Staff Master
+2024-03-13 17:11:56 INFO  Mylpgbooks:58 - testCases.Tc_007_StaffMaster - Clicked On Add Button
+2024-03-13 17:11:58 INFO  Mylpgbooks:61 - testCases.Tc_007_StaffMaster - Entered Emp Code
+2024-03-13 17:11:58 INFO  Mylpgbooks:63 - testCases.Tc_007_StaffMaster - Entered Emp Name
+2024-03-13 17:11:58 INFO  Mylpgbooks:65 - testCases.Tc_007_StaffMaster - Entered Dob
+2024-03-13 17:12:01 INFO  Mylpgbooks:68 - testCases.Tc_007_StaffMaster - Entered Designation
+2024-03-13 17:12:01 INFO  Mylpgbooks:70 - testCases.Tc_007_StaffMaster - Select  Role
+2024-03-13 17:12:03 INFO  Mylpgbooks:73 - testCases.Tc_007_StaffMaster - Entered DOJ
+2024-03-13 17:12:05 INFO  Mylpgbooks:76 - testCases.Tc_007_StaffMaster - Clicked On Save

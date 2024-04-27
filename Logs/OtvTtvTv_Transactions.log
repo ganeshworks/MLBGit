@@ -1,0 +1,38 @@
+2024-03-15 12:07:29 INFO  Mylpgbooks:30 - Agencyid Entered
+
+2024-03-15 12:07:29 INFO  Mylpgbooks:32 - Password Entered
+
+2024-03-15 12:07:30 INFO  Mylpgbooks:56 - transactions.Tc_015_OtvTtvTv - Clicked On Transactions
+
+2024-03-15 12:07:32 INFO  Mylpgbooks:59 - transactions.Tc_015_OtvTtvTv - Clicked On NcDbc Main
+
+2024-03-15 12:07:34 INFO  Mylpgbooks:62 - transactions.Tc_015_OtvTtvTv - Clicked On OtvTTvTv Module
+
+2024-03-15 12:07:36 INFO  Mylpgbooks:65 - transactions.Tc_015_OtvTtvTv - Clicked On Add Button
+
+2024-03-15 12:07:38 INFO  Mylpgbooks:69 - transactions.Tc_015_OtvTtvTv - Selected Staff Name For Responsible
+
+2024-03-15 12:07:44 INFO  Mylpgbooks:71 - transactions.Tc_015_OtvTtvTv - Customer Name Entered
+
+2024-03-15 12:07:46 INFO  Mylpgbooks:74 - transactions.Tc_015_OtvTtvTv - Selected Category From Drop Down
+
+2024-03-15 12:07:46 INFO  Mylpgbooks:76 - transactions.Tc_015_OtvTtvTv - Product Selected From DropDown
+
+2024-03-15 12:07:46 INFO  Mylpgbooks:78 - transactions.Tc_015_OtvTtvTv - Number Of Cylinders Entered
+
+2024-03-15 12:07:48 INFO  Mylpgbooks:81 - transactions.Tc_015_OtvTtvTv - Number Of Regulators Entered
+
+2024-03-15 12:07:48 INFO  Mylpgbooks:83 - transactions.Tc_015_OtvTtvTv - Number Of Cylinder Deposits Entered
+
+2024-03-15 12:07:51 INFO  Mylpgbooks:86 - transactions.Tc_015_OtvTtvTv - Number Of Regulator Deposits Entered
+
+2024-03-15 12:07:53 INFO  Mylpgbooks:89 - transactions.Tc_015_OtvTtvTv - Impress Amount Entered
+
+2024-03-15 12:07:53 INFO  Mylpgbooks:91 - transactions.Tc_015_OtvTtvTv - Admin Charges Selected
+
+2024-03-15 12:07:55 INFO  Mylpgbooks:94 - transactions.Tc_015_OtvTtvTv - Clicked On Fetch Deposit And Charges Button
+
+2024-03-15 12:07:55 INFO  Mylpgbooks:96 - transactions.Tc_015_OtvTtvTv - Clicked On Calculate Button
+
+2024-03-15 12:07:55 INFO  Mylpgbooks:98 - transactions.Tc_015_OtvTtvTv - Clicked On Save Button
+

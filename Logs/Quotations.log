@@ -1,0 +1,20 @@
+2024-03-14 11:33:13 INFO  Mylpgbooks:28 - Agencyid Entered
+2024-03-14 11:33:13 INFO  Mylpgbooks:30 - Password Entered
+2024-03-14 11:33:14 INFO  Mylpgbooks:55 - transactions.Tc_006_Quotations - Clicked On Transactions
+2024-03-14 11:33:14 INFO  Mylpgbooks:57 - transactions.Tc_006_Quotations - Clicked On Sales
+2024-03-14 11:33:14 INFO  Mylpgbooks:59 - transactions.Tc_006_Quotations - Clicked On Quotations
+2024-03-14 11:33:14 INFO  Mylpgbooks:61 - transactions.Tc_006_Quotations - Secret Pin Entered
+2024-03-14 11:33:15 INFO  Mylpgbooks:63 - transactions.Tc_006_Quotations - Clicked On Submit Pin
+2024-03-14 11:33:15 INFO  Mylpgbooks:65 - transactions.Tc_006_Quotations - Clicked On Add Button
+2024-03-14 11:33:15 INFO  Mylpgbooks:67 - transactions.Tc_006_Quotations - Quotation Date Entered
+2024-03-14 11:33:15 INFO  Mylpgbooks:69 - transactions.Tc_006_Quotations - Entered Customer Name
+2024-03-14 11:33:17 INFO  Mylpgbooks:72 - transactions.Tc_006_Quotations - Selected Staff Responsible
+2024-03-14 11:33:17 INFO  Mylpgbooks:74 - transactions.Tc_006_Quotations - Entered FootNotes
+2024-03-14 11:33:20 INFO  Mylpgbooks:77 - transactions.Tc_006_Quotations - Clicked On Sale Type
+2024-03-14 11:33:20 INFO  Mylpgbooks:79 - transactions.Tc_006_Quotations - Select Product Category From List
+2024-03-14 11:33:21 INFO  Mylpgbooks:81 - transactions.Tc_006_Quotations - Select Product From List
+2024-03-14 11:33:23 INFO  Mylpgbooks:84 - transactions.Tc_006_Quotations - Entered Discount
+2024-03-14 11:33:23 INFO  Mylpgbooks:86 - transactions.Tc_006_Quotations - Entered Quantity
+2024-03-14 11:33:25 INFO  Mylpgbooks:89 - transactions.Tc_006_Quotations - Clicked On Fetch Gst Button
+2024-03-14 11:33:25 INFO  Mylpgbooks:91 - transactions.Tc_006_Quotations - Clicked On Calculate Button
+2024-03-14 11:33:27 INFO  Mylpgbooks:94 - transactions.Tc_006_Quotations - Clicked On Save Button

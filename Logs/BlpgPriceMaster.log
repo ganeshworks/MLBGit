@@ -1,0 +1,32 @@
+2024-03-13 15:53:52 INFO  Mylpgbooks:27 - Agencyid Entered
+2024-03-13 15:53:52 INFO  Mylpgbooks:29 - Password Entered
+2024-03-13 15:53:53 INFO  Mylpgbooks:56 - testCases.Tc_002_BlpPriceMaster - Clicked On Master Data
+2024-03-13 15:53:55 INFO  Mylpgbooks:59 - testCases.Tc_002_BlpPriceMaster - Clicked On Price master
+2024-03-13 15:53:55 INFO  Mylpgbooks:61 - testCases.Tc_002_BlpPriceMaster - Clicked On Refill Price
+2024-03-13 15:53:55 INFO  Mylpgbooks:63 - testCases.Tc_002_BlpPriceMaster - Pin Entered
+2024-03-13 15:53:56 INFO  Mylpgbooks:65 - testCases.Tc_002_BlpPriceMaster - Clicked On Submit pin
+2024-03-13 15:53:58 INFO  Mylpgbooks:68 - testCases.Tc_002_BlpPriceMaster - Clicked On Add Button
+2024-03-13 15:53:58 INFO  Mylpgbooks:70 - testCases.Tc_002_BlpPriceMaster - Selected Item From List
+2024-03-13 15:54:00 INFO  Mylpgbooks:73 - testCases.Tc_002_BlpPriceMaster - Rsp Entered
+2024-03-13 15:54:01 INFO  Mylpgbooks:75 - testCases.Tc_002_BlpPriceMaster - Offer Price Entered
+2024-03-13 15:54:03 INFO  Mylpgbooks:78 - testCases.Tc_002_BlpPriceMaster - Date Entered
+2024-03-13 15:54:05 INFO  Mylpgbooks:81 - testCases.Tc_002_BlpPriceMaster - Clicked On Calculate Button
+2024-03-13 15:54:07 INFO  Mylpgbooks:84 - testCases.Tc_002_BlpPriceMaster - Clicked On Save Button
+
+
+Chrome
+
+2024-03-13 15:55:41 INFO  Mylpgbooks:27 - Agencyid Entered
+2024-03-13 15:55:41 INFO  Mylpgbooks:29 - Password Entered
+2024-03-13 15:55:41 INFO  Mylpgbooks:56 - testCases.Tc_002_BlpPriceMaster - Clicked On Master Data
+2024-03-13 15:55:44 INFO  Mylpgbooks:59 - testCases.Tc_002_BlpPriceMaster - Clicked On Price master
+2024-03-13 15:55:44 INFO  Mylpgbooks:61 - testCases.Tc_002_BlpPriceMaster - Clicked On Refill Price
+2024-03-13 15:55:44 INFO  Mylpgbooks:63 - testCases.Tc_002_BlpPriceMaster - Pin Entered
+2024-03-13 15:55:44 INFO  Mylpgbooks:65 - testCases.Tc_002_BlpPriceMaster - Clicked On Submit pin
+2024-03-13 15:55:47 INFO  Mylpgbooks:68 - testCases.Tc_002_BlpPriceMaster - Clicked On Add Button
+2024-03-13 15:55:47 INFO  Mylpgbooks:70 - testCases.Tc_002_BlpPriceMaster - Selected Item From List
+2024-03-13 15:55:49 INFO  Mylpgbooks:73 - testCases.Tc_002_BlpPriceMaster - Rsp Entered
+2024-03-13 15:55:49 INFO  Mylpgbooks:75 - testCases.Tc_002_BlpPriceMaster - Offer Price Entered
+2024-03-13 15:55:51 INFO  Mylpgbooks:78 - testCases.Tc_002_BlpPriceMaster - Date Entered
+2024-03-13 15:55:53 INFO  Mylpgbooks:81 - testCases.Tc_002_BlpPriceMaster - Clicked On Calculate Button
+2024-03-13 15:55:56 INFO  Mylpgbooks:84 - testCases.Tc_002_BlpPriceMaster - Clicked On Save Button

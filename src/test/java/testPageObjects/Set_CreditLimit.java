@@ -14,7 +14,7 @@ WebDriver driver;
 	}
 	
 	By MasterClick=By.xpath("//div[contains(text(),'Master Data')]");
-	By SetCredit=By.xpath("//div[contains(text(),'Set Credit Limit')]");
+	By SetCredit=By.xpath("//div[contains(text(),'Discount/Credit Limit')]");
 	By EnterPin=By.xpath("//input[@placeholder='Enter Pin Here']");
 	By SubmitPin=By.xpath("//div[contains(text(),'SUBMIT')]");
 	By AddBtn=By.xpath("//div[contains(@class,'btn btn-success')]");
@@ -31,6 +31,11 @@ WebDriver driver;
 	By view=By.xpath("//*[@id=\"root\"]/div[1]/div[3]/div[2]/div/div[2]/div/table/tr[2]/td[6]");
 	By Delete=By.xpath("//td[7]//*[name()='svg']");
 	By ConfrmDelete=By.xpath("//div[normalize-space()='Delete']");
+	
+	//For Add 2nd
+	
+	By Discount2=By.xpath("//tr[3]//td[4]//div[1]//div[1]//input[1]");
+	By EffDate2=By.xpath("//tr[3]//td[5]//div[1]//div[1]//input[1]");
 	
 	By EditButton=By.xpath("//*[@id=\"root\"]/div[1]/div[3]/div[2]/div/div[2]/div/table/tr[2]/td[7]/div");
 	By creditLimitEdit=By.xpath("//input[@placeholder='Credit Limit']");
@@ -86,14 +91,28 @@ WebDriver driver;
 		driver.findElement(prodList).click();
 		WebElement ss = driver.findElement(prodList);
 		Select s=new Select(ss);
-		s.selectByIndex(2);
+		s.selectByIndex(1);
 	}
+	public void SelectFromProdList2() {
+		driver.findElement(prodList).click();
+		WebElement ss = driver.findElement(prodList);
+		Select s=new Select(ss);
+		s.selectByIndex(4);
+	}
+	
 	public void EnterDiscount(String num) {
 		driver.findElement(Discount1).clear();	
 		driver.findElement(Discount1).sendKeys(num);	
 	}
+	public void EnterDiscount2(String num) {
+		driver.findElement(Discount2).clear();	
+		driver.findElement(Discount2).sendKeys(num);	
+	}
 	public void EnterDate(String date) {
 		driver.findElement(EffDate1).sendKeys(date);
+	}
+	public void EnterDate2(String date) {
+		driver.findElement(EffDate2).sendKeys(date);
 	}
 	public void ClickOnSave() {
 		driver.findElement(Save).click();

@@ -1,0 +1,19 @@
+2024-03-14 11:51:54 INFO  Mylpgbooks:28 - Agencyid Entered
+2024-03-14 11:51:54 INFO  Mylpgbooks:30 - Password Entered
+2024-03-14 11:51:55 INFO  Mylpgbooks:53 - transactions.Tc_007_Purchase_Orders - Clicked On Transactions
+2024-03-14 11:51:55 INFO  Mylpgbooks:55 - transactions.Tc_007_Purchase_Orders - Clicked On Sales
+2024-03-14 11:51:55 INFO  Mylpgbooks:57 - transactions.Tc_007_Purchase_Orders - Clicked On Sales
+2024-03-14 11:51:56 INFO  Mylpgbooks:59 - transactions.Tc_007_Purchase_Orders - Clicked On Add Button
+2024-03-14 11:51:56 INFO  Mylpgbooks:61 - transactions.Tc_007_Purchase_Orders - Entered PUrchase Order Number
+2024-03-14 11:51:56 INFO  Mylpgbooks:63 - transactions.Tc_007_Purchase_Orders - Entered Purchase Order Date
+2024-03-14 11:51:56 INFO  Mylpgbooks:65 - transactions.Tc_007_Purchase_Orders - Entered Purchase Order Name
+2024-03-14 11:51:58 INFO  Mylpgbooks:68 - transactions.Tc_007_Purchase_Orders - Selected Responced Staff
+2024-03-14 11:51:58 INFO  Mylpgbooks:70 - transactions.Tc_007_Purchase_Orders - Entered FootNotes
+2024-03-14 11:52:01 INFO  Mylpgbooks:73 - transactions.Tc_007_Purchase_Orders - Selected Sale Type
+2024-03-14 11:52:01 INFO  Mylpgbooks:75 - transactions.Tc_007_Purchase_Orders - Selected Product Category From List
+2024-03-14 11:52:02 INFO  Mylpgbooks:77 - transactions.Tc_007_Purchase_Orders - Selected Product From List
+2024-03-14 11:52:04 INFO  Mylpgbooks:80 - transactions.Tc_007_Purchase_Orders - Entered Discount
+2024-03-14 11:52:04 INFO  Mylpgbooks:82 - transactions.Tc_007_Purchase_Orders - Entered Quantity
+2024-03-14 11:52:06 INFO  Mylpgbooks:85 - transactions.Tc_007_Purchase_Orders - Clicked On FetchGst Button
+2024-03-14 11:52:06 INFO  Mylpgbooks:87 - transactions.Tc_007_Purchase_Orders - Clicked On Calculate Button
+2024-03-14 11:52:09 INFO  Mylpgbooks:90 - transactions.Tc_007_Purchase_Orders - Clicked On Save Button

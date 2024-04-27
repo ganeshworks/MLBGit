@@ -1,0 +1,16 @@
+
+2024-03-13 18:37:46 INFO  Mylpgbooks:30 - Agencyid Entered
+2024-03-13 18:37:46 INFO  Mylpgbooks:32 - Password Entered
+2024-03-13 18:37:47 INFO  Mylpgbooks:200 - transactions.Tc_003_OtherPurchases - Clicked On Transactions
+2024-03-13 18:37:47 INFO  Mylpgbooks:202 - transactions.Tc_003_OtherPurchases - Clicked On Purchases
+2024-03-13 18:37:48 INFO  Mylpgbooks:204 - transactions.Tc_003_OtherPurchases - Clicked On Other Purchases
+2024-03-13 18:37:50 INFO  Mylpgbooks:207 - transactions.Tc_003_OtherPurchases - Clicked On No For Expenses Taxable Or Not
+2024-03-13 18:37:50 INFO  Mylpgbooks:209 - transactions.Tc_003_OtherPurchases - Clicked On Add Button
+2024-03-13 18:37:50 INFO  Mylpgbooks:211 - transactions.Tc_003_OtherPurchases - Enter Voucher Date
+2024-03-13 18:37:50 INFO  Mylpgbooks:213 - transactions.Tc_003_OtherPurchases - Clicked On Fetch Button
+2024-03-13 18:37:50 INFO  Mylpgbooks:215 - transactions.Tc_003_OtherPurchases - Entered Expense Name
+2024-03-13 18:37:50 INFO  Mylpgbooks:217 - transactions.Tc_003_OtherPurchases - Selected Minor Head
+2024-03-13 18:37:53 INFO  Mylpgbooks:220 - transactions.Tc_003_OtherPurchases - Entered Qunatity
+2024-03-13 18:37:53 INFO  Mylpgbooks:222 - transactions.Tc_003_OtherPurchases - Select units From List
+2024-03-13 18:37:55 INFO  Mylpgbooks:225 - transactions.Tc_003_OtherPurchases - Entered Unit rate
+2024-03-13 18:37:56 INFO  Mylpgbooks:227 - transactions.Tc_003_OtherPurchases - Clicked On Calculate Button

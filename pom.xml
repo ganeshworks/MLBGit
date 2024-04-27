@@ -101,5 +101,26 @@
     <artifactId>maven-compiler-plugin</artifactId>
     <version>3.11.0</version>
 </dependency>
+<!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
+<dependency>
+    <groupId>mysql</groupId>
+    <artifactId>mysql-connector-java</artifactId>
+    <version>8.0.33</version>
+</dependency>
+<!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
+<dependency>
+    <groupId>mysql</groupId>
+    <artifactId>mysql-connector-java</artifactId>
+    <version>8.0.26</version> <!-- Replace with the appropriate version -->
+</dependency>
+<dependency>
+    <groupId>com.zaxxer</groupId>
+    <artifactId>HikariCP</artifactId>
+    <version>4.0.3</version> <!-- Use the latest version available -->
+</dependency>
+
+
+
+
   </dependencies>
 </project>

@@ -1,12 +1,21 @@
 package testCases;
 
+import java.io.File;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
+import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.By;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
+import org.testng.ITestResult;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.Test;
+
 
 import testPageObjects.Equipment_Master;
 import testPageObjects.LoginPage;
@@ -17,13 +26,13 @@ public class Tc_Equipment extends BaseClass {
 		driver.get(baseurl);
 		driver.manage().window().maximize();
 		LoginPage l = new LoginPage(driver);
-
-		l.AgencyId(username);
-		logg.info("Agencyid Entered");
-		l.password(password);
-		logg.info("Password Entered");
-		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 		l.submitclick();
+		l.AgencyId(username);
+		logg.info(getClass().getName()+"Agencyid Entered");
+		l.password(password);
+		logg.info(getClass().getName()+"Password Entered");
+		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+		// l.submitclick();
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 
 		logg.info("Clicked On Submit");
@@ -52,7 +61,8 @@ public class Tc_Equipment extends BaseClass {
 		Eq.ClickonEquipmentMaster();
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 
-		List<WebElement> elements = driver.findElements(By.xpath("//*[@id=\"root\"]/div[1]/div[3]/div[2]/div/div[2]/div/table/tr"));
+		List<WebElement> elements = driver
+				.findElements(By.xpath("//*[@id=\"root\"]/div[1]/div[3]/div[2]/div/div[2]/div/table/tr"));
 		int length = elements.size();
 		System.out.println(length);
 
@@ -63,7 +73,8 @@ public class Tc_Equipment extends BaseClass {
 		 */
 
 		// Find the third <tr> element
-		WebElement trElement = driver.findElement(By.xpath("//*[@id=\"root\"]/div[1]/div[3]/div[2]/div/div[2]/div/table/tr[3]"));
+		WebElement trElement = driver
+				.findElement(By.xpath("//*[@id=\"root\"]/div[1]/div[3]/div[2]/div/div[2]/div/table/tr[3]"));
 
 		// Find the first <td> element within the third <tr> element
 		WebElement tdElement = trElement.findElement(By.xpath("./td[1]"));
@@ -94,5 +105,17 @@ public class Tc_Equipment extends BaseClass {
 		 * Thread.sleep(4000); Eq.confirmdelete(); }
 		 */
 		// System.out.println(s2[i]);
+	}
+
+	@AfterMethod(enabled = false)
+	public void Aftermthd(ITestResult Tr) throws Exception {
+		if (ITestResult.FAILURE == Tr.getStatus()) {
+			String timestamp = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date());
+			TakesScreenshot ts = (TakesScreenshot) driver;
+			File source = ts.getScreenshotAs(OutputType.FILE);
+			File target = new File(
+					System.getProperty("user.dir") + "/SS/" + Tr.getName() + timestamp + ".png");
+			FileUtils.copyFile(source, target);
+		}
 	}
 }

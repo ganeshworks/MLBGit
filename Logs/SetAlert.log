@@ -1,0 +1,11 @@
+2024-03-13 17:41:01 INFO  Mylpgbooks:28 - Agencyid Entered
+2024-03-13 17:41:02 INFO  Mylpgbooks:30 - Password Entered
+2024-03-13 17:41:02 INFO  Mylpgbooks:148 - testCases.Tc_009_SetAlert - Clicked On Master Data
+2024-03-13 17:41:05 INFO  Mylpgbooks:150 - testCases.Tc_009_SetAlert - Clicked On Set Alert
+2024-03-13 17:41:07 INFO  Mylpgbooks:153 - testCases.Tc_009_SetAlert - Clicked On Add Button
+2024-03-13 17:41:09 INFO  Mylpgbooks:156 - testCases.Tc_009_SetAlert - Item Selected From List
+2024-03-13 17:41:09 INFO  Mylpgbooks:158 - testCases.Tc_009_SetAlert - Entered Ref Num
+2024-03-13 17:41:09 INFO  Mylpgbooks:160 - testCases.Tc_009_SetAlert - Entered Date
+2024-03-13 17:41:12 INFO  Mylpgbooks:163 - testCases.Tc_009_SetAlert - Selected Remind Days
+2024-03-13 17:41:12 INFO  Mylpgbooks:165 - testCases.Tc_009_SetAlert - Remarks Entered
+2024-03-13 17:41:12 INFO  Mylpgbooks:167 - testCases.Tc_009_SetAlert - Clicked On Save

@@ -1,0 +1,10 @@
+2024-03-13 16:12:42 INFO  Mylpgbooks:30 - Agencyid Entered
+2024-03-13 16:12:42 INFO  Mylpgbooks:32 - Password Enter
+2024-03-13 16:12:48 INFO  Mylpgbooks:57 - testCases.Tc_003_CustVendor_Master - Clicked On Master Data
+2024-03-13 16:12:53 INFO  Mylpgbooks:60 - testCases.Tc_003_CustVendor_Master - Clicked On CustVend Master
+2024-03-13 16:12:53 INFO  Mylpgbooks:62 - testCases.Tc_003_CustVendor_Master - Clicked On Add Button
+2024-03-13 16:12:53 INFO  Mylpgbooks:64 - testCases.Tc_003_CustVendor_Master - Selected PartyType From List
+2024-03-13 16:12:59 INFO  Mylpgbooks:68 - testCases.Tc_003_CustVendor_Master - Selected Gst yes/No
+2024-03-13 16:13:05 INFO  Mylpgbooks:73 - testCases.Tc_003_CustVendor_Master - Entered Gst
+2024-03-13 16:13:05 INFO  Mylpgbooks:84 - testCases.Tc_003_CustVendor_Master - Financial turnOver Selected
+2024-03-13 16:13:12 INFO  Mylpgbooks:89 - testCases.Tc_003_CustVendor_Master - Pincode Entered

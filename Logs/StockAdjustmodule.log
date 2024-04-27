@@ -1,0 +1,15 @@
+2024-03-13 17:33:26 INFO  Mylpgbooks:27 - Agencyid Entered
+2024-03-13 17:33:26 INFO  Mylpgbooks:29 - Password Entered
+2024-03-13 17:33:27 INFO  Mylpgbooks:155 - testCases.Tc_008_Stock_Adjustment - Clicked On Master Data
+2024-03-13 17:33:32 INFO  Mylpgbooks:157 - testCases.Tc_008_Stock_Adjustment - Clicked On StockAdjustModule
+2024-03-13 17:33:32 INFO  Mylpgbooks:159 - testCases.Tc_008_Stock_Adjustment - Entered Pin
+2024-03-13 17:33:32 INFO  Mylpgbooks:161 - testCases.Tc_008_Stock_Adjustment - Submitted Pin
+2024-03-13 17:33:34 INFO  Mylpgbooks:164 - testCases.Tc_008_Stock_Adjustment - Entered Date
+2024-03-13 17:33:34 INFO  Mylpgbooks:166 - testCases.Tc_008_Stock_Adjustment - Selected Product Category From List
+2024-03-13 17:33:37 INFO  Mylpgbooks:169 - testCases.Tc_008_Stock_Adjustment - Selected Product  From List
+2024-03-13 17:33:38 INFO  Mylpgbooks:171 - testCases.Tc_008_Stock_Adjustment - Clicked On Add Button
+2024-03-13 17:33:38 INFO  Mylpgbooks:173 - testCases.Tc_008_Stock_Adjustment - Clicked On Loss CheckBox
+2024-03-13 17:33:40 INFO  Mylpgbooks:176 - testCases.Tc_008_Stock_Adjustment - Entered Fulls
+2024-03-13 17:33:40 INFO  Mylpgbooks:178 - testCases.Tc_008_Stock_Adjustment - Entered Empties
+2024-03-13 17:33:40 INFO  Mylpgbooks:180 - testCases.Tc_008_Stock_Adjustment - Entered Narration
+2024-03-13 17:33:42 INFO  Mylpgbooks:183 - testCases.Tc_008_Stock_Adjustment - Clicked On Save

@@ -1,0 +1,17 @@
+
+2024-03-13 15:48:13 INFO  Mylpgbooks:29 - Agencyid Entered
+2024-03-13 15:48:13 INFO  Mylpgbooks:31 - Password Entered
+2024-03-13 15:48:13 INFO  Mylpgbooks:108 - testCases.Tc_002_Price_MasterClicked On Master Data
+2024-03-13 15:48:15 INFO  Mylpgbooks:110 - testCases.Tc_002_Price_MasterClicked On Price master
+2024-03-13 15:49:58 INFO  Mylpgbooks:29 - Agencyid Entered
+2024-03-13 15:49:58 INFO  Mylpgbooks:31 - Password Entered
+2024-03-13 15:49:58 INFO  Mylpgbooks:108 - testCases.Tc_002_Price_MasterClicked On Master Data
+2024-03-13 15:50:01 INFO  Mylpgbooks:111 - testCases.Tc_002_Price_MasterClicked On Price master
+2024-03-13 15:50:01 INFO  Mylpgbooks:113 - testCases.Tc_002_Price_MasterClicked On Refill Price
+2024-03-13 15:50:01 INFO  Mylpgbooks:115 - testCases.Tc_002_Price_MasterPin Entered
+2024-03-13 15:50:01 INFO  Mylpgbooks:117 - testCases.Tc_002_Price_MasterClicked On Submit pin
+2024-03-13 15:50:04 INFO  Mylpgbooks:120 - testCases.Tc_002_Price_MasterClicked On View
+2024-03-13 15:50:06 INFO  Mylpgbooks:135 - testCases.Tc_002_Price_MasterClicked On Profile
+2024-03-13 15:50:06 INFO  Mylpgbooks:136 - Clicked On Profile
+2024-03-13 15:50:06 INFO  Mylpgbooks:140 - Clicked On Signout
+2024-03-13 15:50:08 INFO  Mylpgbooks:143 - Confirm For Signout
