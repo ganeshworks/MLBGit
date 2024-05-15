@@ -1,0 +1,17 @@
+2024-03-13 13:54:16 INFO  Mylpgbooks:21 - testCases.Tc_001_AreaCodeMasterAgencyid Entered
+2024-03-13 13:54:16 INFO  Mylpgbooks:23 - testCases.Tc_001_AreaCodeMasterPassword Entered
+2024-03-13 13:54:16 INFO  Mylpgbooks:28 - testCases.Tc_001_AreaCodeMasterClicked On Submit
+2024-03-13 13:54:17 INFO  Mylpgbooks:93 - testCases.Tc_001_AreaCodeMasterClicked On MasterData
+2024-03-13 13:54:18 INFO  Mylpgbooks:95 - testCases.Tc_001_AreaCodeMasterClicked On Product Master
+2024-03-13 13:54:19 INFO  Mylpgbooks:97 - testCases.Tc_001_AreaCodeMasterClicked On Area Code Master
+2024-03-13 13:54:19 INFO  Mylpgbooks:113 - testCases.Tc_001_AreaCodeMasterClicked On Deletebutton
+2024-03-13 13:54:19 INFO  Mylpgbooks:115 - testCases.Tc_001_AreaCodeMasterClicked On Confirm Deletebutton
+2024-03-13 13:54:22 INFO  Mylpgbooks:122 - testCases.Tc_001_AreaCodeMasterClicked On Add Button
+2024-03-13 13:54:22 INFO  Mylpgbooks:125 - testCases.Tc_001_AreaCodeMasterEntered Pincode
+2024-03-13 13:54:22 INFO  Mylpgbooks:127 - testCases.Tc_001_AreaCodeMasterEntered AreaCode
+2024-03-13 13:54:22 INFO  Mylpgbooks:129 - testCases.Tc_001_AreaCodeMasterEntered Area Name
+2024-03-13 13:54:22 INFO  Mylpgbooks:131 - testCases.Tc_001_AreaCodeMasterEntered Distance
+2024-03-13 13:54:22 INFO  Mylpgbooks:133 - testCases.Tc_001_AreaCodeMasterEntered Transport Charges
+2024-03-13 13:54:22 INFO  Mylpgbooks:135 - testCases.Tc_001_AreaCodeMasterEntered Date
+2024-03-13 13:54:22 INFO  Mylpgbooks:137 - testCases.Tc_001_AreaCodeMasterClicked On Save
+

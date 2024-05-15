@@ -1,0 +1,34 @@
+2024-03-15 12:01:18 INFO  Mylpgbooks:30 - Agencyid Entered
+
+2024-03-15 12:01:18 INFO  Mylpgbooks:32 - Password Entered
+
+2024-03-15 12:01:21 INFO  Mylpgbooks:57 - transactions.Tc_014_Itv_Rc_Transactions - Clicked On Transactions
+
+2024-03-15 12:01:21 INFO  Mylpgbooks:59 - transactions.Tc_014_Itv_Rc_Transactions - Clicked On Main NcDbc
+
+2024-03-15 12:01:24 INFO  Mylpgbooks:62 - transactions.Tc_014_Itv_Rc_Transactions - Clicked On ITV/RC
+
+2024-03-15 12:01:26 INFO  Mylpgbooks:65 - transactions.Tc_014_Itv_Rc_Transactions - Clicked On Add Button
+
+2024-03-15 12:01:28 INFO  Mylpgbooks:69 - transactions.Tc_014_Itv_Rc_Transactions - Selected Staff For Responsible
+
+2024-03-15 12:01:29 INFO  Mylpgbooks:71 - transactions.Tc_014_Itv_Rc_Transactions - Customer Name Entered
+
+2024-03-15 12:01:31 INFO  Mylpgbooks:74 - transactions.Tc_014_Itv_Rc_Transactions - Item Selected From DropDown
+
+2024-03-15 12:01:32 INFO  Mylpgbooks:76 - transactions.Tc_014_Itv_Rc_Transactions - Entered Number Of Cylinders
+
+2024-03-15 12:01:34 INFO  Mylpgbooks:79 - transactions.Tc_014_Itv_Rc_Transactions - Entered NUMBER OF REGULATORS
+
+2024-03-15 12:01:34 INFO  Mylpgbooks:81 - transactions.Tc_014_Itv_Rc_Transactions - Entered CYLINDER DEPOSIT
+
+2024-03-15 12:01:36 INFO  Mylpgbooks:84 - transactions.Tc_014_Itv_Rc_Transactions - Entered REGULATOR DEPOSIT
+
+2024-03-15 12:01:36 INFO  Mylpgbooks:86 - transactions.Tc_014_Itv_Rc_Transactions - Selected Admin Charges 
+
+2024-03-15 12:01:39 INFO  Mylpgbooks:89 - transactions.Tc_014_Itv_Rc_Transactions - Clicked On Fetch Deposit And Charges Button
+
+2024-03-15 12:01:39 INFO  Mylpgbooks:91 - transactions.Tc_014_Itv_Rc_Transactions - Clicked On Calculate Button
+
+2024-03-15 12:01:39 INFO  Mylpgbooks:93 - transactions.Tc_014_Itv_Rc_Transactions - Clicked On Save Button
+

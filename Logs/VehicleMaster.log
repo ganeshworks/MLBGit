@@ -1,0 +1,10 @@
+2024-03-13 16:35:56 INFO  Mylpgbooks:27 - Agencyid Entered
+2024-03-13 16:35:56 INFO  Mylpgbooks:29 - Password Entered
+2024-03-13 16:35:56 INFO  Mylpgbooks:56 - testCases.Tc_006_vehicleMaster - Clicked On Master Data
+2024-03-13 16:35:58 INFO  Mylpgbooks:58 - testCases.Tc_006_vehicleMaster - Clicked On Vehicle Master
+2024-03-13 16:36:01 INFO  Mylpgbooks:61 - testCases.Tc_006_vehicleMaster - Clicked On Add Button
+2024-03-13 16:36:01 INFO  Mylpgbooks:63 - testCases.Tc_006_vehicleMaster - Vehicle Number Entered
+2024-03-13 16:36:01 INFO  Mylpgbooks:65 - testCases.Tc_006_vehicleMaster - Vehicle Make Entered
+2024-03-13 16:36:01 INFO  Mylpgbooks:67 - testCases.Tc_006_vehicleMaster - Selected Vehicle Type
+2024-03-13 16:36:04 INFO  Mylpgbooks:70 - testCases.Tc_006_vehicleMaster - Selected Vehicle Use
+2024-03-13 16:36:06 INFO  Mylpgbooks:73 - testCases.Tc_006_vehicleMaster - Clicked On Save

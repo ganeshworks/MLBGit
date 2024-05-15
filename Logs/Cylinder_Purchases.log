@@ -1,0 +1,60 @@
+2024-03-13 18:11:26 INFO  Mylpgbooks:30 - Agencyid Entered
+2024-03-13 18:11:26 INFO  Mylpgbooks:32 - Password Entered
+2024-03-13 18:11:27 INFO  Mylpgbooks:57 - transactions.Tc_001_Cylinder_Purchases - Clicked On Transactions
+2024-03-13 18:11:27 INFO  Mylpgbooks:59 - transactions.Tc_001_Cylinder_Purchases - Clicked On Purchases
+2024-03-13 18:11:28 INFO  Mylpgbooks:61 - transactions.Tc_001_Cylinder_Purchases - Clicked On Cyl Purchases
+2024-03-13 18:11:28 INFO  Mylpgbooks:63 - transactions.Tc_001_Cylinder_Purchases - Clicked On Add Button
+2024-03-13 18:11:32 INFO  Mylpgbooks:66 - transactions.Tc_001_Cylinder_Purchases - Select Omc From List
+2024-03-13 18:11:32 INFO  Mylpgbooks:68 - transactions.Tc_001_Cylinder_Purchases - Entered Reference Number
+2024-03-13 18:11:32 INFO  Mylpgbooks:70 - transactions.Tc_001_Cylinder_Purchases - Entered Invoice Date
+2024-03-13 18:11:34 INFO  Mylpgbooks:73 - transactions.Tc_001_Cylinder_Purchases - Entered Stock Received Date
+2024-03-13 18:11:34 INFO  Mylpgbooks:75 - transactions.Tc_001_Cylinder_Purchases - Select Product From list
+2024-03-13 18:11:36 INFO  Mylpgbooks:78 - transactions.Tc_001_Cylinder_Purchases - Select Load type
+2024-03-13 18:11:37 INFO  Mylpgbooks:80 - transactions.Tc_001_Cylinder_Purchases - Entered UnitRate
+2024-03-13 18:11:39 INFO  Mylpgbooks:83 - transactions.Tc_001_Cylinder_Purchases - Entered Quantity
+2024-03-13 18:11:39 INFO  Mylpgbooks:85 - transactions.Tc_001_Cylinder_Purchases - Clicked On Calculate
+2024-03-13 18:11:39 INFO  Mylpgbooks:87 - transactions.Tc_001_Cylinder_Purchases - Entered Vehicle Number
+2024-03-13 18:11:39 INFO  Mylpgbooks:89 - transactions.Tc_001_Cylinder_Purchases - Entered Driver Name
+2024-03-13 18:11:39 INFO  Mylpgbooks:91 - transactions.Tc_001_Cylinder_Purchases - Selected Godown
+2024-03-13 18:11:41 INFO  Mylpgbooks:94 - transactions.Tc_001_Cylinder_Purchases - Selected Received By Staff
+2024-03-13 18:11:43 INFO  Mylpgbooks:97 - transactions.Tc_001_Cylinder_Purchases - Clicked On Save
+2024-03-14 18:01:42 INFO  Mylpgbooks:30 - Agencyid Entered
+
+2024-03-14 18:01:42 INFO  Mylpgbooks:32 - Password Entered
+
+2024-03-14 18:01:43 INFO  Mylpgbooks:57 - transactions.Tc_001_Cylinder_Purchases - Clicked On Transactions
+
+2024-03-14 18:01:47 INFO  Mylpgbooks:59 - transactions.Tc_001_Cylinder_Purchases - Clicked On Purchases
+
+2024-03-14 18:01:48 INFO  Mylpgbooks:61 - transactions.Tc_001_Cylinder_Purchases - Clicked On Cyl Purchases
+
+2024-03-14 18:01:48 INFO  Mylpgbooks:63 - transactions.Tc_001_Cylinder_Purchases - Clicked On Add Button
+
+2024-03-14 18:01:53 INFO  Mylpgbooks:66 - transactions.Tc_001_Cylinder_Purchases - Select Omc Plant From List
+
+2024-03-14 18:01:53 INFO  Mylpgbooks:68 - transactions.Tc_001_Cylinder_Purchases - Entered Reference Number
+
+2024-03-14 18:01:53 INFO  Mylpgbooks:70 - transactions.Tc_001_Cylinder_Purchases - Entered Invoice Date
+
+2024-03-14 18:01:55 INFO  Mylpgbooks:73 - transactions.Tc_001_Cylinder_Purchases - Entered Stock Received Date
+
+2024-03-14 18:01:55 INFO  Mylpgbooks:75 - transactions.Tc_001_Cylinder_Purchases - Select Product From list
+
+2024-03-14 18:01:57 INFO  Mylpgbooks:78 - transactions.Tc_001_Cylinder_Purchases - Select Load type
+
+2024-03-14 18:01:57 INFO  Mylpgbooks:80 - transactions.Tc_001_Cylinder_Purchases - Entered UnitRate
+
+2024-03-14 18:01:59 INFO  Mylpgbooks:83 - transactions.Tc_001_Cylinder_Purchases - Entered Quantity
+
+2024-03-14 18:01:59 INFO  Mylpgbooks:85 - transactions.Tc_001_Cylinder_Purchases - Clicked On Calculate
+
+2024-03-14 18:01:59 INFO  Mylpgbooks:87 - transactions.Tc_001_Cylinder_Purchases - Entered Vehicle Number
+
+2024-03-14 18:02:00 INFO  Mylpgbooks:89 - transactions.Tc_001_Cylinder_Purchases - Entered Driver Name
+
+2024-03-14 18:02:00 INFO  Mylpgbooks:91 - transactions.Tc_001_Cylinder_Purchases - Selected Godown
+
+2024-03-14 18:02:02 INFO  Mylpgbooks:94 - transactions.Tc_001_Cylinder_Purchases - Selected Received By Staff
+
+2024-03-14 18:02:04 INFO  Mylpgbooks:97 - transactions.Tc_001_Cylinder_Purchases - Clicked On Save
+

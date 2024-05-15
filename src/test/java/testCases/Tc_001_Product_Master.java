@@ -16,6 +16,8 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
+import org.testng.ITestResult;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.Test;
 
 import net.bytebuddy.utility.RandomString;
@@ -28,8 +30,6 @@ import testPageObjects.Services_Master;
 
 public class Tc_001_Product_Master extends BaseClass {
 
-	
-
 	@Test(priority = 1)
 	public void login() {
 		driver.get(baseurl);
@@ -37,14 +37,14 @@ public class Tc_001_Product_Master extends BaseClass {
 		LoginPage l = new LoginPage(driver);
 
 		l.AgencyId(username);
-		logg.info("Agencyid Entered");
+		logg.info(getClass().getName() + "Agencyid Entered");
 		l.password(password);
-		logg.info("Password Entered");
+		logg.info(getClass().getName() + "Password Entered");
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 		l.submitclick();
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 
-		logg.info("Clicked On Submit");
+		logg.info(getClass().getName() + "Clicked On Submit");
 		/*
 		 * l.ClickOnProfile();
 		 * 
@@ -64,51 +64,85 @@ public class Tc_001_Product_Master extends BaseClass {
 		Equipment_Master Eq = new Equipment_Master(driver);
 
 		Eq.ClickonMasterData();
+		logg.info(getClass().getName() + "Clicked On MasterData");
 		Thread.sleep(5000);
 		Eq.ClickonProductmaster();
+		logg.info(getClass().getName() + "Clicked On Product Master");
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 		Eq.ClickonEquipmentMaster();
+		logg.info(getClass().getName() + "Clicked On Equipment master");
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
-		// Eq.dropdownselect();
 
 		/*
-		 * Eq.ClickOnAdd(); Thread.sleep(3000);
+		 * // Eq.dropdownselect();
 		 * 
-		 * Eq.Selectitemfromlist(); Thread.sleep(3000); Eq.Selectunitfromlist();
-		 * Thread.sleep(3000); Eq.EnterFulls("150"); Thread.sleep(3000);
-		 * Eq.EnterDate("02/27/2024"); Thread.sleep(3000); Eq.ClickOnSave();
-		 * Thread.sleep(5000);
+		 * Eq.ClickOnAdd(); logg.info(getClass().getName() + "Clicked On Add ");
+		 * Thread.sleep(3000);
+		 * 
+		 * WebElement trElement = driver .findElement(By.xpath(
+		 * "//*[@id=\"root\"]/div[1]/div[3]/div[2]/div/div[3]/div/table/tr[3]"));
+		 * 
+		 * // Find the first <td> element within the third <tr> element WebElement
+		 * tdElement = trElement.findElement(By.xpath("./td[1]"));
+		 * 
+		 * // Get the text of the first <td> element String tdText =
+		 * tdElement.getText();
+		 * 
+		 * Eq.Selectitemfromlist();
+		 * 
+		 * Select ss = new
+		 * Select(driver.findElement(By.xpath("//td[1]//div[1]//select[1]")));
+		 * 
+		 * ss.selectByVisibleText(tdText);
+		 * 
+		 * logg.info(getClass().getName() + "Equipment Selected From List");
+		 * Thread.sleep(3000); Eq.Selectunitfromlist(); logg.info(getClass().getName() +
+		 * "Units Selected From List");
+		 * 
+		 * Thread.sleep(3000); Eq.EnterFulls("150"); logg.info(getClass().getName() +
+		 * "Fulls Added"); Thread.sleep(3000); Eq.EnterEmpties("10");
+		 * logg.info(getClass().getName() + "Empties Added");
+		 * Eq.EnterDate("02/27/2024"); logg.info(getClass().getName() + "Date Added");
+		 * Thread.sleep(3000); Eq.ClickOnSave(); logg.info(getClass().getName() +
+		 * "Clicked On Save"); Thread.sleep(5000);
 		 */
 
 		// Find the third <tr> element
-				WebElement trElement = driver.findElement(By.xpath("//*[@id=\"root\"]/div[1]/div[3]/div[2]/div/div[3]/div/table/tr[3]"));
+		WebElement trElement = driver
+				.findElement(By.xpath("//*[@id=\"root\"]/div[1]/div[3]/div[2]/div/div[3]/div/table/tr[3]"));
 
-				// Find the first <td> element within the third <tr> element
-				WebElement tdElement = trElement.findElement(By.xpath("./td[1]"));
+		// Find the first <td> element within the third <tr> element
+		WebElement tdElement = trElement.findElement(By.xpath("./td[1]"));
 
-				// Get the text of the first <td> element
-				String tdText = tdElement.getText();
+		// Get the text of the first <td> element
+		String tdText = tdElement.getText();
 
-				System.out.println(tdText);
+		System.out.println(tdText);
 
-				driver.findElement(By.xpath("//tr[3]//td[9]")).click();
-				driver.findElement(By.xpath("//div[normalize-space()='Delete']")).click();
-				//driver.switchTo().alert().accept();
-				
+		driver.findElement(By.xpath("//tr[3]//td[9]")).click();
+		driver.findElement(By.xpath("//div[normalize-space()='Delete']")).click();
+		// driver.switchTo().alert().accept();
+		logg.info(getClass().getName() + "Equipment Deleted");
 
 		Eq.ClickOnAdd();
+		logg.info(getClass().getName() + "Equipment Added Back");
 		Thread.sleep(3000);
 
 		Eq.Selectitemfromlist();
-		Select ss=new Select(driver.findElement(By.xpath("//td[1]//div[1]//select[1]")));
+
+		Select ss = new Select(driver.findElement(By.xpath("//td[1]//div[1]//select[1]")));
 		ss.selectByVisibleText(tdText);
+		logg.info(getClass().getName() + "Equipment Selected From List");
 		Thread.sleep(3000);
 		Eq.Selectunitfromlist();
+		logg.info(getClass().getName() + "Units Selected From List");
 		Thread.sleep(3000);
 
 		// Eq.deleteAddedRow();
 
 		Eq.ClickOnSave();
+		logg.info(getClass().getName() + "Clicked On Save");
+
 		Thread.sleep(3000);
 
 		/*
@@ -127,50 +161,69 @@ public class Tc_001_Product_Master extends BaseClass {
 		Arb_Master Ar = new Arb_Master(driver);
 
 		Ar.ClickonMasterData();
+		logg.info(getClass().getName() + "Clicked On MasterData");
 		Ar.ClickonProductmaster();
+		logg.info(getClass().getName() + "Clicked On Product Master");
+
 		Ar.ClickOnBlpg();
+
+		logg.info(getClass().getName() + "Clicked On Blpg/Nfr/Arb master");
 		// Ar.dropdownselect();
-		Thread.sleep(5000);
 		/*
-		 * Ar.ClickOnAdd(); Ar.Selectitemfromlist(); Ar.AddBrandName("QaTest");
-		 * Ar.AddProdName("TestQa");
-		 * 
-		 * 
-		 * Ar.AddHsn("27111900"); Ar.Selectunitfromlist(); Ar.GstFromList();
-		 * Ar.AddPurchasePrice("157"); Ar.AddOpStock("120"); Ar.EnterDate("03/02/2024");
 		 * Thread.sleep(5000);
 		 * 
-		 * Ar.ClickOnSave();
+		 * Ar.ClickOnAdd(); Ar.Selectitemfromlist(); logg.info(getClass().getName() +
+		 * "Selected Item From List"); Ar.AddBrandName("QaTest");
+		 * logg.info(getClass().getName() + "Added Brandname");
+		 * Ar.AddProdName("TestQa"); logg.info(getClass().getName() +
+		 * "Added Product name"); Ar.AddHsn("27111900"); logg.info(getClass().getName()
+		 * + "Added Hsn Code"); Ar.Selectunitfromlist(); logg.info(getClass().getName()
+		 * + "Units Selected From List"); Ar.GstFromList();
+		 * logg.info(getClass().getName() + "Gst Selected From List");
+		 * Ar.AddPurchasePrice("157"); logg.info(getClass().getName() +
+		 * "Purchase Price Added"); Ar.AddOpStock("120"); logg.info(getClass().getName()
+		 * + "Op Stock Added"); Ar.EnterDate("03/02/2024");
+		 * logg.info(getClass().getName() + "Date Added"); Thread.sleep(5000);
+		 * 
+		 * Ar.ClickOnSave(); logg.info(getClass().getName() + "Clicked On Save");
 		 */
 		
 		// Find the third <tr> element
-				WebElement trElement = driver.findElement(By.xpath("//*[@id=\"root\"]/div[1]/div[3]/div[2]/div/div[3]/div/table/tr[2]"));
+		WebElement trElement = driver
+				.findElement(By.xpath("//*[@id=\"root\"]/div[1]/div[3]/div[2]/div/div[3]/div/table/tr[2]"));
 
-				// Find the first <td> element within the third <tr> element
-				WebElement tdElement = trElement.findElement(By.xpath("./td[1]"));
+		// Find the first <td> element within the third <tr> element
+		WebElement tdElement = trElement.findElement(By.xpath("./td[1]"));
 
-				// Get the text of the first <td> element
-				String tdText = tdElement.getText();
+		// Get the text of the first <td> element
+		String tdText = tdElement.getText();
 
-				System.out.println(tdText);
+		System.out.println(tdText);
 
-				driver.findElement(By.xpath("//tr[2]//td[10]")).click();
-				driver.findElement(By.xpath("//div[normalize-space()='Delete']")).click();
-				Thread.sleep(2000);
-				driver.switchTo().alert().accept();
-				/*
-				 * Ar.DeleteProductFromList(); Ar.ConfirmDeleteClick(); Thread.sleep(2000);
-				 * driver.switchTo().alert().accept(); Thread.sleep(2000);
-				 */
+		driver.findElement(By.xpath("//tr[2]//td[10]")).click();
+		driver.findElement(By.xpath("//div[normalize-space()='Delete']")).click();
+		Thread.sleep(2000);
+		driver.switchTo().alert().accept();
+		logg.info(getClass().getName() + "Blpg/Nfr/Arb Item Deleted");
+		/*
+		 * Ar.DeleteProductFromList(); Ar.ConfirmDeleteClick(); Thread.sleep(2000);
+		 * driver.switchTo().alert().accept(); Thread.sleep(2000);
+		 */
 		Ar.ClickOnAdd();
+		logg.info(getClass().getName() + "Product Added Back");
 		Ar.Selectitemfromlist();
-		Select ss=new Select(driver.findElement(By.xpath("//td[1]//div[1]//select[1]")));
+		Select ss = new Select(driver.findElement(By.xpath("//td[1]//div[1]//select[1]")));
 		ss.selectByVisibleText(tdText);
+		logg.info(getClass().getName() + "Product Selected From List");
 		Ar.AddBrandName("QaTest");
+		logg.info(getClass().getName() + "Added Brandname");
 		Ar.AddProdName("TestQa");
-		Ar.AddHsn();
+		logg.info(getClass().getName() + "Added Product name");
+		Ar.DeleteHsn();
+		logg.info(getClass().getName() + "Added Hsn Code");
 		Thread.sleep(4000);
 		Ar.ClickOnSave();
+		logg.info(getClass().getName() + "Clicked On Save");
 
 		Thread.sleep(2000);
 
@@ -281,9 +334,10 @@ public class Tc_001_Product_Master extends BaseClass {
 		Thread.sleep(2000);
 		Am.ClickonProductmaster();
 		Am.ClickOnAreaCodeMaster();
-		
+
 		// Find the third <tr> element
-		WebElement trElement = driver.findElement(By.xpath("//*[@id=\"root\"]/div[1]/div[3]/div[2]/div/div[2]/div/table/tr[2]"));
+		WebElement trElement = driver
+				.findElement(By.xpath("//*[@id=\"root\"]/div[1]/div[3]/div[2]/div/div[2]/div/table/tr[2]"));
 
 		// Find the first <td> element within the third <tr> element
 		WebElement tdElement = trElement.findElement(By.xpath("./td[1]"));
@@ -296,7 +350,6 @@ public class Tc_001_Product_Master extends BaseClass {
 		driver.findElement(By.xpath("//tr[2]//td[7]")).click();
 		driver.findElement(By.xpath("//div[normalize-space()='Delete']")).click();
 		Thread.sleep(2000);
-		
 
 		/*
 		 * String timestamp = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new
@@ -308,8 +361,8 @@ public class Tc_001_Product_Master extends BaseClass {
 		 */
 
 		Am.ClickOnAdd();
-		//Am.EnterPincode("500018");
-		
+		// Am.EnterPincode("500018");
+
 		driver.findElement(By.xpath("//input[contains(@placeholder,'PIN CODE')]")).sendKeys(tdText);
 		Am.EnterAreacode("Abc12250");
 		Am.EnterAreaNames("Borabanda");
@@ -348,16 +401,16 @@ public class Tc_001_Product_Master extends BaseClass {
 		Bom.ClickOnAddEqupmnt();
 		Bom.RegulatorListSelect();
 		Bom.ClickOnAddRegultr();
-		//Bom.ClickOnConTypeGenDbcBpl();
+		// Bom.ClickOnConTypeGenDbcBpl();
 		Bom.ClickOnConTypeLoanCash();
 		Thread.sleep(2000);
-		//Bom.ServicesListSelect();
-		//Bom.ClickOnAddService();
+		// Bom.ServicesListSelect();
+		// Bom.ClickOnAddService();
 		Bom.ArbListSelect();
 		Bom.ClickOnAddArb();
 		Thread.sleep(2000);
-		Bom.AddBomName("GenNc Con Name"+RandomString.make(2));
-		//System.out.println();
+		Bom.AddBomName("GenNc Con Name" + RandomString.make(2));
+		// System.out.println();
 		Bom.DepRequiredEqp();
 		Thread.sleep(2000);
 		Bom.DepRequiredReg();
@@ -365,7 +418,6 @@ public class Tc_001_Product_Master extends BaseClass {
 		Bom.ClickOnSaveBtn();
 
 		Thread.sleep(4000);
-		 
 
 		// For Deleting Bom Package
 
@@ -387,4 +439,15 @@ public class Tc_001_Product_Master extends BaseClass {
 		 */
 	}
 
+	@AfterMethod()
+	public void Aftermthd(ITestResult Tr) throws Exception {
+		if (ITestResult.FAILURE == Tr.getStatus()) {
+			Thread.sleep(2000);
+			String timestamp = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date());
+			TakesScreenshot ts = (TakesScreenshot) driver;
+			File source = ts.getScreenshotAs(OutputType.FILE);
+			File target = new File(System.getProperty("user.dir") + "/SS/" + Tr.getName() + timestamp + ".png");
+			FileUtils.copyFile(source, target);
+		}
+	}
 }

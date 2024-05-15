@@ -1,0 +1,17 @@
+2024-03-14 12:53:35 INFO  Mylpgbooks:30 - Agencyid Entered
+2024-03-14 12:53:35 INFO  Mylpgbooks:32 - Password Entered
+2024-03-14 12:53:36 INFO  Mylpgbooks:56 - transactions.Tc_011_Delivery_Challan - Clicked On Transactions
+2024-03-14 12:53:37 INFO  Mylpgbooks:58 - transactions.Tc_011_Delivery_Challan - Clicked On Sales
+2024-03-14 12:53:39 INFO  Mylpgbooks:61 - transactions.Tc_011_Delivery_Challan - Clicked On Delivery Challan
+2024-03-14 12:53:41 INFO  Mylpgbooks:64 - transactions.Tc_011_Delivery_Challan - Clicked On Add Button
+2024-03-14 12:53:43 INFO  Mylpgbooks:67 - transactions.Tc_011_Delivery_Challan - Delivery Challan Date Entered
+2024-03-14 12:53:46 INFO  Mylpgbooks:70 - transactions.Tc_011_Delivery_Challan - Customer Was Selected
+2024-03-14 12:53:46 INFO  Mylpgbooks:72 - transactions.Tc_011_Delivery_Challan - Staff Selected For Responsible
+2024-03-14 12:53:47 INFO  Mylpgbooks:74 - transactions.Tc_011_Delivery_Challan - Vehicle Selected For Transportation
+2024-03-14 12:53:47 INFO  Mylpgbooks:76 - transactions.Tc_011_Delivery_Challan - Invoice Number Entered
+2024-03-14 12:53:47 INFO  Mylpgbooks:78 - transactions.Tc_011_Delivery_Challan - Entered Mode Of Delivery
+2024-03-14 12:53:47 INFO  Mylpgbooks:80 - transactions.Tc_011_Delivery_Challan - Delivery Instructions Entered
+2024-03-14 12:53:47 INFO  Mylpgbooks:82 - transactions.Tc_011_Delivery_Challan - Product Selected From List
+2024-03-14 12:53:47 INFO  Mylpgbooks:84 - transactions.Tc_011_Delivery_Challan - Unit Price Entered
+2024-03-14 12:53:47 INFO  Mylpgbooks:86 - transactions.Tc_011_Delivery_Challan - Quantity Entered
+2024-03-14 12:53:50 INFO  Mylpgbooks:89 - transactions.Tc_011_Delivery_Challan - Clicked On Fetch Value Button

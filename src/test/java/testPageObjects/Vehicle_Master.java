@@ -30,6 +30,22 @@ public class Vehicle_Master {
 	By Next=By.xpath("//span[normalize-space()='Next']");
 	By Previous=By.xpath("//span[normalize-space()='Previous']");
 	
+	By VehicleNo2=By.xpath("//tr[3]//td[1]//div[1]//div[1]//input[1]");
+	By MakeVehicle2=By.xpath("//tr[3]//td[2]//div[1]//div[1]//input[1]");
+	By Vehcletype2=By.xpath("//tr[3]//td[3]//div[1]//select[1]");
+	By VehicleUse2=By.xpath("//tr[3]//td[4]//div[1]//select[1]");
+	
+	By VehicleNo3=By.xpath("//tr[4]//td[1]//div[1]//div[1]//input[1]");
+	By MakeVehicle3=By.xpath("//tr[4]//td[2]//div[1]//div[1]//input[1]");
+	By Vehcletype3=By.xpath("//tr[4]//td[3]//div[1]//select[1]");
+	By VehicleUse3=By.xpath("//tr[4]//td[4]//div[1]//select[1]");
+	
+	By VehicleNo4=By.xpath("//tr[5]//td[1]//div[1]//div[1]//input[1]");
+	By MakeVehicle4=By.xpath("//tr[5]//td[2]//div[1]//div[1]//input[1]");
+	By Vehcletype4=By.xpath("//tr[5]//td[3]//div[1]//select[1]");
+	By VehicleUse4=By.xpath("//tr[5]//td[4]//div[1]//select[1]");
+	
+	
 	
 	public void ClickonMasterData() {
 		driver.findElement(MasterClick).click();
@@ -58,6 +74,64 @@ public class Vehicle_Master {
 		Select s=new Select(ss);
 		s.selectByIndex(1);
 	}
+	
+	public void EnterVehicleNo2(String name) {
+		driver.findElement(VehicleNo2).sendKeys(name);
+	}
+	public void VehicleMake2(String name) {
+		driver.findElement(MakeVehicle2).sendKeys(name);
+	}
+	public void SelectVehicleType2() {
+		driver.findElement(Vehcletype2).click();
+		WebElement ss = driver.findElement(Vehcletype2);
+		Select s=new Select(ss);
+		s.selectByIndex(2);
+	}
+	public void SelectVehicleUse2() {
+		driver.findElement(VehicleUse2).click();
+		WebElement ss = driver.findElement(VehicleUse2);
+		Select s=new Select(ss);
+		s.selectByIndex(2);
+	}
+	
+	public void EnterVehicleNo3(String name) {
+		driver.findElement(VehicleNo3).sendKeys(name);
+	}
+	public void VehicleMake3(String name) {
+		driver.findElement(MakeVehicle3).sendKeys(name);
+	}
+	public void SelectVehicleType3() {
+		driver.findElement(Vehcletype3).click();
+		WebElement ss = driver.findElement(Vehcletype3);
+		Select s=new Select(ss);
+		s.selectByIndex(3);
+	}
+	public void SelectVehicleUse3() {
+		driver.findElement(VehicleUse3).click();
+		WebElement ss = driver.findElement(VehicleUse3);
+		Select s=new Select(ss);
+		s.selectByIndex(3);
+	}
+	
+	public void EnterVehicleNo4(String name) {
+		driver.findElement(VehicleNo4).sendKeys(name);
+	}
+	public void VehicleMake4(String name) {
+		driver.findElement(MakeVehicle4).sendKeys(name);
+	}
+	public void SelectVehicleType4() {
+		driver.findElement(Vehcletype4).click();
+		WebElement ss = driver.findElement(Vehcletype4);
+		Select s=new Select(ss);
+		s.selectByIndex(4);
+	}
+	public void SelectVehicleUse4() {
+		driver.findElement(VehicleUse4).click();
+		WebElement ss = driver.findElement(VehicleUse4);
+		Select s=new Select(ss);
+		s.selectByIndex(4);
+	}
+	
 	public void ClickonSave() {
 		driver.findElement(Save).click();
 	}

@@ -1,0 +1,492 @@
+2024-03-14 12:21:40 INFO  Mylpgbooks:30 - transactions.Tc_009_ComCylSales - Agency Id Entered
+2024-03-14 12:21:40 INFO  Mylpgbooks:32 - transactions.Tc_009_ComCylSales - Password Entered
+2024-03-14 12:21:40 INFO  Mylpgbooks:35 - transactions.Tc_009_ComCylSales - Clicked On Submit
+2024-03-14 12:21:41 INFO  Mylpgbooks:56 - transactions.Tc_009_ComCylSales - Clicked On Transactions
+2024-03-14 12:21:41 INFO  Mylpgbooks:58 - transactions.Tc_009_ComCylSales - Clicked On Sales
+2024-03-14 12:21:43 INFO  Mylpgbooks:61 - transactions.Tc_009_ComCylSales - Clicked On Commercial Sales
+2024-03-14 12:21:46 INFO  Mylpgbooks:64 - transactions.Tc_009_ComCylSales - Clicked On Add Button
+2024-03-14 12:21:48 INFO  Mylpgbooks:67 - transactions.Tc_009_ComCylSales - Sales Date Entered
+2024-03-14 12:21:50 INFO  Mylpgbooks:70 - transactions.Tc_009_ComCylSales - Customer Is Selected
+2024-03-14 12:21:51 INFO  Mylpgbooks:72 - transactions.Tc_009_ComCylSales - Selected Purchase Order Number
+2024-03-14 12:21:51 INFO  Mylpgbooks:74 - transactions.Tc_009_ComCylSales - Payment Terms Selected
+2024-03-14 12:21:52 INFO  Mylpgbooks:76 - transactions.Tc_009_ComCylSales - Vehicle Selected For Transportation
+2024-03-14 12:21:52 INFO  Mylpgbooks:78 - transactions.Tc_009_ComCylSales - Product Selected From List
+2024-03-14 12:21:52 INFO  Mylpgbooks:80 - transactions.Tc_009_ComCylSales - Discount Entered
+2024-03-14 12:21:52 INFO  Mylpgbooks:82 - transactions.Tc_009_ComCylSales - Quantity Entered 
+2024-03-14 12:21:54 INFO  Mylpgbooks:85 - transactions.Tc_009_ComCylSales - Psv Quantity Entered
+2024-03-14 12:21:54 INFO  Mylpgbooks:87 - transactions.Tc_009_ComCylSales - Quantity Entered For Empties Received
+2024-03-14 12:21:55 INFO  Mylpgbooks:89 - transactions.Tc_009_ComCylSales - Selected Person By Whom Delivered By 
+2024-03-14 12:21:55 INFO  Mylpgbooks:91 - transactions.Tc_009_ComCylSales - Selected Bank Account To Credit Amount
+2024-03-14 12:21:58 INFO  Mylpgbooks:94 - transactions.Tc_009_ComCylSales - Selected Area Code For Delivery 
+2024-03-14 12:21:58 INFO  Mylpgbooks:96 - transactions.Tc_009_ComCylSales - Clicked On Fetch Invoice Button
+2024-03-14 12:22:00 INFO  Mylpgbooks:99 - transactions.Tc_009_ComCylSales - Clicked On Fetch Gst Button
+2024-03-14 12:22:02 INFO  Mylpgbooks:102 - transactions.Tc_009_ComCylSales - Clicked On Calculate Button
+2024-03-14 12:22:05 INFO  Mylpgbooks:105 - transactions.Tc_009_ComCylSales - Clicked On Save Button2024-03-14 15:19:17 INFO  Mylpgbooks:30 - transactions.Tc_009_ComCylSales - Agency Id Entered
+
+2024-03-14 15:19:17 INFO  Mylpgbooks:32 - transactions.Tc_009_ComCylSales - Password Entered
+
+2024-03-14 15:19:17 INFO  Mylpgbooks:35 - transactions.Tc_009_ComCylSales - Clicked On Submit
+
+2024-03-14 15:19:17 INFO  Mylpgbooks:56 - transactions.Tc_009_ComCylSales - Clicked On Transactions
+
+2024-03-14 15:19:18 INFO  Mylpgbooks:58 - transactions.Tc_009_ComCylSales - Clicked On Sales
+
+2024-03-14 15:19:20 INFO  Mylpgbooks:61 - transactions.Tc_009_ComCylSales - Clicked On Commercial Sales
+
+2024-03-14 15:19:22 INFO  Mylpgbooks:64 - transactions.Tc_009_ComCylSales - Clicked On Add Button
+
+2024-03-14 15:19:24 INFO  Mylpgbooks:67 - transactions.Tc_009_ComCylSales - Sales Date Entered
+
+2024-03-14 15:19:27 INFO  Mylpgbooks:70 - transactions.Tc_009_ComCylSales - Customer Is Selected
+
+2024-03-14 15:19:27 INFO  Mylpgbooks:72 - transactions.Tc_009_ComCylSales - Selected Purchase Order Number
+
+2024-03-14 15:19:28 INFO  Mylpgbooks:74 - transactions.Tc_009_ComCylSales - Payment Terms Selected
+
+2024-03-14 15:19:28 INFO  Mylpgbooks:76 - transactions.Tc_009_ComCylSales - Vehicle Selected For Transportation
+
+2024-03-14 15:19:29 INFO  Mylpgbooks:78 - transactions.Tc_009_ComCylSales - Product Selected From List
+
+2024-03-14 15:19:29 INFO  Mylpgbooks:80 - transactions.Tc_009_ComCylSales - Discount Entered
+
+2024-03-14 15:19:29 INFO  Mylpgbooks:82 - transactions.Tc_009_ComCylSales - Quantity Entered 
+
+2024-03-14 15:19:31 INFO  Mylpgbooks:85 - transactions.Tc_009_ComCylSales - Psv Quantity Entered
+
+2024-03-14 15:19:31 INFO  Mylpgbooks:87 - transactions.Tc_009_ComCylSales - Quantity Entered For Empties Received
+
+2024-03-14 15:19:31 INFO  Mylpgbooks:89 - transactions.Tc_009_ComCylSales - Selected Person By Whom Delivered By 
+
+2024-03-14 15:19:32 INFO  Mylpgbooks:91 - transactions.Tc_009_ComCylSales - Selected Bank Account To Credit Amount
+
+2024-03-14 15:19:34 INFO  Mylpgbooks:94 - transactions.Tc_009_ComCylSales - Selected Area Code For Delivery 
+
+2024-03-14 15:20:23 INFO  Mylpgbooks:30 - transactions.Tc_009_ComCylSales - Agency Id Entered
+2024-03-14 15:20:23 INFO  Mylpgbooks:32 - transactions.Tc_009_ComCylSales - Password Entered
+2024-03-14 15:20:23 INFO  Mylpgbooks:35 - transactions.Tc_009_ComCylSales - Clicked On Submit
+2024-03-14 15:20:23 INFO  Mylpgbooks:56 - transactions.Tc_009_ComCylSales - Clicked On Transactions
+2024-03-14 15:20:24 INFO  Mylpgbooks:58 - transactions.Tc_009_ComCylSales - Clicked On Sales
+2024-03-14 15:20:26 INFO  Mylpgbooks:61 - transactions.Tc_009_ComCylSales - Clicked On Commercial Sales
+2024-03-14 15:20:28 INFO  Mylpgbooks:64 - transactions.Tc_009_ComCylSales - Clicked On Add Button
+2024-03-14 15:20:30 INFO  Mylpgbooks:67 - transactions.Tc_009_ComCylSales - Sales Date Entered
+2024-03-14 15:20:33 INFO  Mylpgbooks:70 - transactions.Tc_009_ComCylSales - Customer Is Selected
+2024-03-14 15:20:33 INFO  Mylpgbooks:72 - transactions.Tc_009_ComCylSales - Selected Purchase Order Number
+2024-03-14 15:20:34 INFO  Mylpgbooks:74 - transactions.Tc_009_ComCylSales - Payment Terms Selected
+2024-03-14 15:20:34 INFO  Mylpgbooks:76 - transactions.Tc_009_ComCylSales - Vehicle Selected For Transportation
+2024-03-14 15:20:35 INFO  Mylpgbooks:78 - transactions.Tc_009_ComCylSales - Product Selected From List
+2024-03-14 15:20:35 INFO  Mylpgbooks:80 - transactions.Tc_009_ComCylSales - Discount Entered
+2024-03-14 15:20:35 INFO  Mylpgbooks:82 - transactions.Tc_009_ComCylSales - Quantity Entered 
+2024-03-14 15:20:37 INFO  Mylpgbooks:85 - transactions.Tc_009_ComCylSales - Psv Quantity Entered
+2024-03-14 15:20:37 INFO  Mylpgbooks:87 - transactions.Tc_009_ComCylSales - Quantity Entered For Empties Received
+2024-03-14 15:20:37 INFO  Mylpgbooks:89 - transactions.Tc_009_ComCylSales - Selected Person By Whom Delivered By 
+2024-03-14 15:20:38 INFO  Mylpgbooks:91 - transactions.Tc_009_ComCylSales - Selected Bank Account To Credit Amount
+2024-03-14 15:20:40 INFO  Mylpgbooks:94 - transactions.Tc_009_ComCylSales - Selected Area Code For Delivery 
+2024-03-14 15:23:55 INFO  Mylpgbooks:30 - transactions.Tc_009_ComCylSales - Agency Id Entered
+2024-03-14 15:23:55 INFO  Mylpgbooks:32 - transactions.Tc_009_ComCylSales - Password Entered
+2024-03-14 15:23:56 INFO  Mylpgbooks:35 - transactions.Tc_009_ComCylSales - Clicked On Submit
+2024-03-14 15:23:57 INFO  Mylpgbooks:56 - transactions.Tc_009_ComCylSales - Clicked On Transactions
+2024-03-14 15:23:57 INFO  Mylpgbooks:58 - transactions.Tc_009_ComCylSales - Clicked On Sales
+2024-03-14 15:23:59 INFO  Mylpgbooks:61 - transactions.Tc_009_ComCylSales - Clicked On Commercial Sales
+2024-03-14 15:24:01 INFO  Mylpgbooks:64 - transactions.Tc_009_ComCylSales - Clicked On Add Button
+2024-03-14 15:24:03 INFO  Mylpgbooks:67 - transactions.Tc_009_ComCylSales - Sales Date Entered
+2024-03-14 15:24:06 INFO  Mylpgbooks:70 - transactions.Tc_009_ComCylSales - Customer Is Selected
+2024-03-14 15:24:06 INFO  Mylpgbooks:72 - transactions.Tc_009_ComCylSales - Selected Purchase Order Number
+2024-03-14 15:24:07 INFO  Mylpgbooks:74 - transactions.Tc_009_ComCylSales - Payment Terms Selected
+2024-03-14 15:24:07 INFO  Mylpgbooks:76 - transactions.Tc_009_ComCylSales - Vehicle Selected For Transportation
+2024-03-14 15:24:08 INFO  Mylpgbooks:78 - transactions.Tc_009_ComCylSales - Product Selected From List
+2024-03-14 15:24:08 INFO  Mylpgbooks:80 - transactions.Tc_009_ComCylSales - Discount Entered
+2024-03-14 15:24:08 INFO  Mylpgbooks:82 - transactions.Tc_009_ComCylSales - Quantity Entered 
+2024-03-14 15:24:10 INFO  Mylpgbooks:85 - transactions.Tc_009_ComCylSales - Psv Quantity Entered
+2024-03-14 15:24:10 INFO  Mylpgbooks:87 - transactions.Tc_009_ComCylSales - Quantity Entered For Empties Received
+2024-03-14 15:24:10 INFO  Mylpgbooks:89 - transactions.Tc_009_ComCylSales - Selected Person By Whom Delivered By 
+2024-03-14 15:24:11 INFO  Mylpgbooks:91 - transactions.Tc_009_ComCylSales - Selected Bank Account To Credit Amount
+2024-03-14 15:24:13 INFO  Mylpgbooks:94 - transactions.Tc_009_ComCylSales - Selected Area Code For Delivery 
+2024-03-14 15:27:11 INFO  Mylpgbooks:30 - transactions.Tc_009_ComCylSales - Agency Id Entered
+2024-03-14 15:27:11 INFO  Mylpgbooks:32 - transactions.Tc_009_ComCylSales - Password Entered
+2024-03-14 15:27:12 INFO  Mylpgbooks:35 - transactions.Tc_009_ComCylSales - Clicked On Submit
+2024-03-14 15:27:12 INFO  Mylpgbooks:56 - transactions.Tc_009_ComCylSales - Clicked On Transactions
+2024-03-14 15:27:13 INFO  Mylpgbooks:58 - transactions.Tc_009_ComCylSales - Clicked On Sales
+2024-03-14 15:27:15 INFO  Mylpgbooks:61 - transactions.Tc_009_ComCylSales - Clicked On Commercial Sales
+2024-03-14 15:27:17 INFO  Mylpgbooks:64 - transactions.Tc_009_ComCylSales - Clicked On Add Button
+2024-03-14 15:27:19 INFO  Mylpgbooks:67 - transactions.Tc_009_ComCylSales - Sales Date Entered
+2024-03-14 15:27:21 INFO  Mylpgbooks:70 - transactions.Tc_009_ComCylSales - Customer Is Selected
+2024-03-14 15:27:22 INFO  Mylpgbooks:72 - transactions.Tc_009_ComCylSales - Selected Purchase Order Number
+2024-03-14 15:27:22 INFO  Mylpgbooks:74 - transactions.Tc_009_ComCylSales - Payment Terms Selected
+2024-03-14 15:27:22 INFO  Mylpgbooks:76 - transactions.Tc_009_ComCylSales - Vehicle Selected For Transportation
+2024-03-14 15:27:22 INFO  Mylpgbooks:78 - transactions.Tc_009_ComCylSales - Product Selected From List
+2024-03-14 15:27:22 INFO  Mylpgbooks:80 - transactions.Tc_009_ComCylSales - Discount Entered
+2024-03-14 15:27:23 INFO  Mylpgbooks:82 - transactions.Tc_009_ComCylSales - Quantity Entered 
+2024-03-14 15:27:25 INFO  Mylpgbooks:85 - transactions.Tc_009_ComCylSales - Psv Quantity Entered
+2024-03-14 15:27:25 INFO  Mylpgbooks:87 - transactions.Tc_009_ComCylSales - Quantity Entered For Empties Received
+2024-03-14 15:27:25 INFO  Mylpgbooks:89 - transactions.Tc_009_ComCylSales - Selected Person By Whom Delivered By 
+2024-03-14 15:27:25 INFO  Mylpgbooks:91 - transactions.Tc_009_ComCylSales - Selected Bank Account To Credit Amount
+2024-03-14 15:27:28 INFO  Mylpgbooks:94 - transactions.Tc_009_ComCylSales - Selected Area Code For Delivery 
+2024-03-14 15:27:28 INFO  Mylpgbooks:96 - transactions.Tc_009_ComCylSales - Clicked On Fetch Invoice Button
+2024-03-14 15:27:30 INFO  Mylpgbooks:99 - transactions.Tc_009_ComCylSales - Clicked On Fetch Gst Button
+2024-03-14 15:27:32 INFO  Mylpgbooks:102 - transactions.Tc_009_ComCylSales - Clicked On Calculate Button
+2024-03-14 15:27:34 INFO  Mylpgbooks:105 - transactions.Tc_009_ComCylSales - Clicked On Save Button
+2024-03-14 15:30:07 INFO  Mylpgbooks:30 - transactions.Tc_009_ComCylSales - Agency Id Entered
+
+2024-03-14 15:30:07 INFO  Mylpgbooks:32 - transactions.Tc_009_ComCylSales - Password Entered
+
+2024-03-14 15:30:08 INFO  Mylpgbooks:35 - transactions.Tc_009_ComCylSales - Clicked On Submit
+
+2024-03-14 15:30:08 INFO  Mylpgbooks:56 - transactions.Tc_009_ComCylSales - Clicked On Transactions
+
+2024-03-14 15:30:08 INFO  Mylpgbooks:58 - transactions.Tc_009_ComCylSales - Clicked On Sales
+
+2024-03-14 15:30:11 INFO  Mylpgbooks:61 - transactions.Tc_009_ComCylSales - Clicked On Commercial Sales
+
+2024-03-14 15:30:13 INFO  Mylpgbooks:64 - transactions.Tc_009_ComCylSales - Clicked On Add Button
+
+2024-03-14 15:30:15 INFO  Mylpgbooks:67 - transactions.Tc_009_ComCylSales - Sales Date Entered
+
+2024-03-14 15:30:17 INFO  Mylpgbooks:70 - transactions.Tc_009_ComCylSales - Customer Is Selected
+
+2024-03-14 15:30:17 INFO  Mylpgbooks:72 - transactions.Tc_009_ComCylSales - Selected Purchase Order Number
+
+2024-03-14 15:30:18 INFO  Mylpgbooks:74 - transactions.Tc_009_ComCylSales - Payment Terms Selected
+
+2024-03-14 15:30:18 INFO  Mylpgbooks:76 - transactions.Tc_009_ComCylSales - Vehicle Selected For Transportation
+
+2024-03-14 15:30:18 INFO  Mylpgbooks:78 - transactions.Tc_009_ComCylSales - Product Selected From List
+
+2024-03-14 15:30:18 INFO  Mylpgbooks:80 - transactions.Tc_009_ComCylSales - Discount Entered
+
+2024-03-14 15:30:18 INFO  Mylpgbooks:82 - transactions.Tc_009_ComCylSales - Quantity Entered 
+
+2024-03-14 15:30:21 INFO  Mylpgbooks:85 - transactions.Tc_009_ComCylSales - Psv Quantity Entered
+
+2024-03-14 15:30:21 INFO  Mylpgbooks:87 - transactions.Tc_009_ComCylSales - Quantity Entered For Empties Received
+
+2024-03-14 15:30:21 INFO  Mylpgbooks:89 - transactions.Tc_009_ComCylSales - Selected Person By Whom Delivered By 
+
+2024-03-14 15:30:21 INFO  Mylpgbooks:91 - transactions.Tc_009_ComCylSales - Selected Bank Account To Credit Amount
+
+2024-03-14 15:30:23 INFO  Mylpgbooks:94 - transactions.Tc_009_ComCylSales - Selected Area Code For Delivery 
+
+2024-03-14 15:30:24 INFO  Mylpgbooks:96 - transactions.Tc_009_ComCylSales - Clicked On Fetch Invoice Button
+
+2024-03-14 15:30:26 INFO  Mylpgbooks:99 - transactions.Tc_009_ComCylSales - Clicked On Fetch Gst Button
+
+2024-03-14 15:30:28 INFO  Mylpgbooks:102 - transactions.Tc_009_ComCylSales - Clicked On Calculate Button
+
+2024-03-14 15:30:30 INFO  Mylpgbooks:105 - transactions.Tc_009_ComCylSales - Clicked On Save Button
+
+2024-03-14 15:32:09 INFO  Mylpgbooks:30
+ - transactions.Tc_009_ComCylSales - Agency Id Entered
+2024-03-14 15:32:09 INFO  Mylpgbooks:32
+ - transactions.Tc_009_ComCylSales - Password Entered
+2024-03-14 15:32:10 INFO  Mylpgbooks:35
+ - transactions.Tc_009_ComCylSales - Clicked On Submit
+2024-03-14 15:32:10 INFO  Mylpgbooks:56
+ - transactions.Tc_009_ComCylSales - Clicked On Transactions
+2024-03-14 15:32:11 INFO  Mylpgbooks:58
+ - transactions.Tc_009_ComCylSales - Clicked On Sales
+2024-03-14 15:32:13 INFO  Mylpgbooks:61
+ - transactions.Tc_009_ComCylSales - Clicked On Commercial Sales
+2024-03-14 15:32:16 INFO  Mylpgbooks:64
+ - transactions.Tc_009_ComCylSales - Clicked On Add Button
+2024-03-14 15:32:18 INFO  Mylpgbooks:67
+ - transactions.Tc_009_ComCylSales - Sales Date Entered
+2024-03-14 15:32:20 INFO  Mylpgbooks:70
+ - transactions.Tc_009_ComCylSales - Customer Is Selected
+2024-03-14 15:32:20 INFO  Mylpgbooks:72
+ - transactions.Tc_009_ComCylSales - Selected Purchase Order Number
+2024-03-14 15:32:20 INFO  Mylpgbooks:74
+ - transactions.Tc_009_ComCylSales - Payment Terms Selected
+2024-03-14 15:32:20 INFO  Mylpgbooks:76
+ - transactions.Tc_009_ComCylSales - Vehicle Selected For Transportation
+2024-03-14 15:32:21 INFO  Mylpgbooks:78
+ - transactions.Tc_009_ComCylSales - Product Selected From List
+2024-03-14 15:32:21 INFO  Mylpgbooks:80
+ - transactions.Tc_009_ComCylSales - Discount Entered
+2024-03-14 15:32:21 INFO  Mylpgbooks:82
+ - transactions.Tc_009_ComCylSales - Quantity Entered 
+2024-03-14 15:32:23 INFO  Mylpgbooks:85
+ - transactions.Tc_009_ComCylSales - Psv Quantity Entered
+2024-03-14 15:32:23 INFO  Mylpgbooks:87
+ - transactions.Tc_009_ComCylSales - Quantity Entered For Empties Received
+2024-03-14 15:32:23 INFO  Mylpgbooks:89
+ - transactions.Tc_009_ComCylSales - Selected Person By Whom Delivered By 
+2024-03-14 15:32:23 INFO  Mylpgbooks:91
+ - transactions.Tc_009_ComCylSales - Selected Bank Account To Credit Amount
+2024-03-14 15:32:26 INFO  Mylpgbooks:94
+ - transactions.Tc_009_ComCylSales - Selected Area Code For Delivery 
+2024-03-14 15:32:26 INFO  Mylpgbooks:96
+ - transactions.Tc_009_ComCylSales - Clicked On Fetch Invoice Button
+2024-03-14 15:32:28 INFO  Mylpgbooks:99
+ - transactions.Tc_009_ComCylSales - Clicked On Fetch Gst Button
+2024-03-14 15:32:30 INFO  Mylpgbooks:102
+ - transactions.Tc_009_ComCylSales - Clicked On Calculate Button
+2024-03-14 15:32:32 INFO  Mylpgbooks:105
+ - transactions.Tc_009_ComCylSales - Clicked On Save Button
+2024-03-14 15:38:30 INFO  Mylpgbooks:30
+ - transactions.Tc_009_ComCylSales - Agency Id Entered
+2024-03-14 15:38:30 INFO  Mylpgbooks:32
+ - transactions.Tc_009_ComCylSales - Password Entered
+2024-03-14 15:38:30 INFO  Mylpgbooks:35
+ - transactions.Tc_009_ComCylSales - Clicked On Submit
+2024-03-14 15:38:31 INFO  Mylpgbooks:56
+ - transactions.Tc_009_ComCylSales - Clicked On Transactions
+2024-03-14 15:38:32 INFO  Mylpgbooks:58
+ - transactions.Tc_009_ComCylSales - Clicked On Sales
+2024-03-14 15:38:34 INFO  Mylpgbooks:61
+ - transactions.Tc_009_ComCylSales - Clicked On Commercial Sales
+2024-03-14 15:38:36 INFO  Mylpgbooks:64
+ - transactions.Tc_009_ComCylSales - Clicked On Add Button
+2024-03-14 15:38:39 INFO  Mylpgbooks:67
+ - transactions.Tc_009_ComCylSales - Sales Date Entered
+2024-03-14 15:38:41 INFO  Mylpgbooks:70
+ - transactions.Tc_009_ComCylSales - Customer Is Selected
+2024-03-14 15:38:41 INFO  Mylpgbooks:72
+ - transactions.Tc_009_ComCylSales - Selected Purchase Order Number
+2024-03-14 15:38:41 INFO  Mylpgbooks:74
+ - transactions.Tc_009_ComCylSales - Payment Terms Selected
+2024-03-14 15:38:42 INFO  Mylpgbooks:76
+ - transactions.Tc_009_ComCylSales - Vehicle Selected For Transportation
+2024-03-14 15:38:42 INFO  Mylpgbooks:78
+ - transactions.Tc_009_ComCylSales - Product Selected From List
+2024-03-14 15:38:42 INFO  Mylpgbooks:80
+ - transactions.Tc_009_ComCylSales - Discount Entered
+2024-03-14 15:38:42 INFO  Mylpgbooks:82
+ - transactions.Tc_009_ComCylSales - Quantity Entered 
+2024-03-14 15:38:44 INFO  Mylpgbooks:85
+ - transactions.Tc_009_ComCylSales - Psv Quantity Entered
+2024-03-14 15:38:44 INFO  Mylpgbooks:87
+ - transactions.Tc_009_ComCylSales - Quantity Entered For Empties Received
+2024-03-14 15:38:44 INFO  Mylpgbooks:89
+ - transactions.Tc_009_ComCylSales - Selected Person By Whom Delivered By 
+2024-03-14 15:38:44 INFO  Mylpgbooks:91
+ - transactions.Tc_009_ComCylSales - Selected Bank Account To Credit Amount
+2024-03-14 15:38:47 INFO  Mylpgbooks:94
+ - transactions.Tc_009_ComCylSales - Selected Area Code For Delivery 
+2024-03-14 15:38:47 INFO  Mylpgbooks:96
+ - transactions.Tc_009_ComCylSales - Clicked On Fetch Invoice Button
+2024-03-14 15:38:49 INFO  Mylpgbooks:99
+ - transactions.Tc_009_ComCylSales - Clicked On Fetch Gst Button
+2024-03-14 15:38:51 INFO  Mylpgbooks:102
+ - transactions.Tc_009_ComCylSales - Clicked On Calculate Button
+2024-03-14 15:38:53 INFO  Mylpgbooks:105
+ - transactions.Tc_009_ComCylSales - Clicked On Save Button
+2024-03-14 15:40:48 INFO  Mylpgbooks:30
+ - transactions.Tc_009_ComCylSales - Agency Id Entered
+2024-03-14 15:42:26 INFO  Mylpgbooks:30
+ - transactions.Tc_009_ComCylSales - Agency Id Entered
+
+2024-03-14 15:43:36 INFO  Mylpgbooks:30 - transactions.Tc_009_ComCylSales - Agency Id Entered
+
+2024-03-14 15:43:36 INFO  Mylpgbooks:32 - transactions.Tc_009_ComCylSales - Password Entered
+
+2024-03-14 15:43:37 INFO  Mylpgbooks:35 - transactions.Tc_009_ComCylSales - Clicked On Submit
+
+2024-03-14 15:43:37 INFO  Mylpgbooks:56 - transactions.Tc_009_ComCylSales - Clicked On Transactions
+
+2024-03-14 15:43:38 INFO  Mylpgbooks:58 - transactions.Tc_009_ComCylSales - Clicked On Sales
+
+2024-03-14 15:43:41 INFO  Mylpgbooks:61 - transactions.Tc_009_ComCylSales - Clicked On Commercial Sales
+
+2024-03-14 15:43:43 INFO  Mylpgbooks:64 - transactions.Tc_009_ComCylSales - Clicked On Add Button
+
+2024-03-14 15:43:45 INFO  Mylpgbooks:67 - transactions.Tc_009_ComCylSales - Sales Date Entered
+
+2024-03-14 15:43:47 INFO  Mylpgbooks:70 - transactions.Tc_009_ComCylSales - Customer Is Selected
+
+2024-03-14 15:43:47 INFO  Mylpgbooks:72 - transactions.Tc_009_ComCylSales - Selected Purchase Order Number
+
+2024-03-14 15:43:48 INFO  Mylpgbooks:74 - transactions.Tc_009_ComCylSales - Payment Terms Selected
+
+2024-03-14 15:43:48 INFO  Mylpgbooks:76 - transactions.Tc_009_ComCylSales - Vehicle Selected For Transportation
+
+2024-03-14 15:43:48 INFO  Mylpgbooks:78 - transactions.Tc_009_ComCylSales - Product Selected From List
+
+2024-03-14 15:43:48 INFO  Mylpgbooks:80 - transactions.Tc_009_ComCylSales - Discount Entered
+
+2024-03-14 15:43:48 INFO  Mylpgbooks:82 - transactions.Tc_009_ComCylSales - Quantity Entered 
+
+2024-03-14 15:43:51 INFO  Mylpgbooks:85 - transactions.Tc_009_ComCylSales - Psv Quantity Entered
+
+2024-03-14 15:43:51 INFO  Mylpgbooks:87 - transactions.Tc_009_ComCylSales - Quantity Entered For Empties Received
+
+2024-03-14 15:43:51 INFO  Mylpgbooks:89 - transactions.Tc_009_ComCylSales - Selected Person By Whom Delivered By 
+
+2024-03-14 15:43:51 INFO  Mylpgbooks:91 - transactions.Tc_009_ComCylSales - Selected Bank Account To Credit Amount
+
+2024-03-14 15:43:53 INFO  Mylpgbooks:94 - transactions.Tc_009_ComCylSales - Selected Area Code For Delivery 
+
+2024-03-14 15:43:54 INFO  Mylpgbooks:96 - transactions.Tc_009_ComCylSales - Clicked On Fetch Invoice Button
+
+2024-03-14 15:43:56 INFO  Mylpgbooks:99 - transactions.Tc_009_ComCylSales - Clicked On Fetch Gst Button
+
+2024-03-14 15:43:58 INFO  Mylpgbooks:102 - transactions.Tc_009_ComCylSales - Clicked On Calculate Button
+
+2024-03-14 15:44:00 INFO  Mylpgbooks:105 - transactions.Tc_009_ComCylSales - Clicked On Save Button
+
+2024-03-14 15:46:13 INFO  Mylpgbooks:30
+ - transactions.Tc_009_ComCylSales - Agency Id Entered
+
+2024-03-14 15:46:13 INFO  Mylpgbooks:32
+ - transactions.Tc_009_ComCylSales - Password Entered
+
+2024-03-14 15:46:13 INFO  Mylpgbooks:35
+ - transactions.Tc_009_ComCylSales - Clicked On Submit
+
+2024-03-14 15:46:14 INFO  Mylpgbooks:56
+ - transactions.Tc_009_ComCylSales - Clicked On Transactions
+
+2024-03-14 15:46:14 INFO  Mylpgbooks:58
+ - transactions.Tc_009_ComCylSales - Clicked On Sales
+
+2024-03-14 15:46:16 INFO  Mylpgbooks:61
+ - transactions.Tc_009_ComCylSales - Clicked On Commercial Sales
+
+2024-03-14 15:46:19 INFO  Mylpgbooks:64
+ - transactions.Tc_009_ComCylSales - Clicked On Add Button
+
+2024-03-14 15:46:21 INFO  Mylpgbooks:67
+ - transactions.Tc_009_ComCylSales - Sales Date Entered
+
+2024-03-14 15:46:23 INFO  Mylpgbooks:70
+ - transactions.Tc_009_ComCylSales - Customer Is Selected
+
+2024-03-14 15:46:23 INFO  Mylpgbooks:72
+ - transactions.Tc_009_ComCylSales - Selected Purchase Order Number
+
+2024-03-14 15:46:23 INFO  Mylpgbooks:74
+ - transactions.Tc_009_ComCylSales - Payment Terms Selected
+
+2024-03-14 15:46:23 INFO  Mylpgbooks:76
+ - transactions.Tc_009_ComCylSales - Vehicle Selected For Transportation
+
+2024-03-14 15:46:24 INFO  Mylpgbooks:78
+ - transactions.Tc_009_ComCylSales - Product Selected From List
+
+2024-03-14 15:46:24 INFO  Mylpgbooks:80
+ - transactions.Tc_009_ComCylSales - Discount Entered
+
+2024-03-14 15:46:24 INFO  Mylpgbooks:82
+ - transactions.Tc_009_ComCylSales - Quantity Entered 
+
+2024-03-14 15:46:26 INFO  Mylpgbooks:85
+ - transactions.Tc_009_ComCylSales - Psv Quantity Entered
+
+2024-03-14 15:46:26 INFO  Mylpgbooks:87
+ - transactions.Tc_009_ComCylSales - Quantity Entered For Empties Received
+
+2024-03-14 15:46:26 INFO  Mylpgbooks:89
+ - transactions.Tc_009_ComCylSales - Selected Person By Whom Delivered By 
+
+2024-03-14 15:46:26 INFO  Mylpgbooks:91
+ - transactions.Tc_009_ComCylSales - Selected Bank Account To Credit Amount
+
+2024-03-14 15:46:29 INFO  Mylpgbooks:94
+ - transactions.Tc_009_ComCylSales - Selected Area Code For Delivery 
+
+2024-03-14 15:46:29 INFO  Mylpgbooks:96
+ - transactions.Tc_009_ComCylSales - Clicked On Fetch Invoice Button
+
+2024-03-14 15:46:31 INFO  Mylpgbooks:99
+ - transactions.Tc_009_ComCylSales - Clicked On Fetch Gst Button
+
+2024-03-14 15:46:33 INFO  Mylpgbooks:102
+ - transactions.Tc_009_ComCylSales - Clicked On Calculate Button
+
+2024-03-14 15:46:35 INFO  Mylpgbooks:105
+ - transactions.Tc_009_ComCylSales - Clicked On Save Button
+
+2024-03-14 16:00:03 INFO  Mylpgbooks:30 - transactions.Tc_009_ComCylSales - Agency Id Entered
+
+2024-03-14 16:00:03 INFO  Mylpgbooks:32 - transactions.Tc_009_ComCylSales - Password Entered
+
+2024-03-14 16:00:03 INFO  Mylpgbooks:35 - transactions.Tc_009_ComCylSales - Clicked On Submit
+
+2024-03-14 16:00:04 INFO  Mylpgbooks:56 - transactions.Tc_009_ComCylSales - Clicked On Transactions
+
+2024-03-14 16:00:09 INFO  Mylpgbooks:58 - transactions.Tc_009_ComCylSales - Clicked On Sales
+
+2024-03-14 16:00:11 INFO  Mylpgbooks:61 - transactions.Tc_009_ComCylSales - Clicked On Commercial Sales
+
+2024-03-14 16:00:13 INFO  Mylpgbooks:64 - transactions.Tc_009_ComCylSales - Clicked On Add Button
+
+2024-03-14 16:00:16 INFO  Mylpgbooks:67 - transactions.Tc_009_ComCylSales - Sales Date Entered
+
+2024-03-14 16:00:18 INFO  Mylpgbooks:70 - transactions.Tc_009_ComCylSales - Customer Is Selected
+
+2024-03-14 16:00:18 INFO  Mylpgbooks:72 - transactions.Tc_009_ComCylSales - Selected Purchase Order Number
+
+2024-03-14 16:00:18 INFO  Mylpgbooks:74 - transactions.Tc_009_ComCylSales - Payment Terms Selected
+
+2024-03-14 16:00:19 INFO  Mylpgbooks:76 - transactions.Tc_009_ComCylSales - Vehicle Selected For Transportation
+
+2024-03-14 16:00:19 INFO  Mylpgbooks:78 - transactions.Tc_009_ComCylSales - Product Selected From List
+
+2024-03-14 16:00:19 INFO  Mylpgbooks:80 - transactions.Tc_009_ComCylSales - Discount Entered
+
+2024-03-14 16:00:19 INFO  Mylpgbooks:82 - transactions.Tc_009_ComCylSales - Quantity Entered 
+
+2024-03-14 16:00:21 INFO  Mylpgbooks:85 - transactions.Tc_009_ComCylSales - Psv Quantity Entered
+
+2024-03-14 16:00:21 INFO  Mylpgbooks:87 - transactions.Tc_009_ComCylSales - Quantity Entered For Empties Received
+
+2024-03-14 16:00:22 INFO  Mylpgbooks:89 - transactions.Tc_009_ComCylSales - Selected Person By Whom Delivered By 
+
+2024-03-14 16:00:22 INFO  Mylpgbooks:91 - transactions.Tc_009_ComCylSales - Selected Bank Account To Credit Amount
+
+2024-03-14 16:00:25 INFO  Mylpgbooks:94 - transactions.Tc_009_ComCylSales - Selected Area Code For Delivery 
+
+2024-03-14 16:00:25 INFO  Mylpgbooks:96 - transactions.Tc_009_ComCylSales - Clicked On Fetch Invoice Button
+
+2024-03-14 16:00:27 INFO  Mylpgbooks:99 - transactions.Tc_009_ComCylSales - Clicked On Fetch Gst Button
+
+2024-03-14 16:00:29 INFO  Mylpgbooks:102 - transactions.Tc_009_ComCylSales - Clicked On Calculate Button
+
+2024-03-14 16:00:31 INFO  Mylpgbooks:105 - transactions.Tc_009_ComCylSales - Clicked On Save Button
+
+2024-03-14 17:59:52 INFO  Mylpgbooks:30 - transactions.Tc_009_ComCylSales - Agency Id Entered
+
+2024-03-14 17:59:53 INFO  Mylpgbooks:32 - transactions.Tc_009_ComCylSales - Password Entered
+
+2024-03-14 17:59:53 INFO  Mylpgbooks:35 - transactions.Tc_009_ComCylSales - Clicked On Submit
+
+2024-03-14 17:59:53 INFO  Mylpgbooks:56 - transactions.Tc_009_ComCylSales - Clicked On Transactions
+
+2024-03-14 17:59:54 INFO  Mylpgbooks:58 - transactions.Tc_009_ComCylSales - Clicked On Sales
+
+2024-03-14 17:59:57 INFO  Mylpgbooks:61 - transactions.Tc_009_ComCylSales - Clicked On Commercial Sales
+
+2024-03-14 17:59:59 INFO  Mylpgbooks:64 - transactions.Tc_009_ComCylSales - Clicked On Add Button
+
+2024-03-14 18:00:01 INFO  Mylpgbooks:67 - transactions.Tc_009_ComCylSales - Sales Date Entered
+
+2024-03-14 18:00:03 INFO  Mylpgbooks:70 - transactions.Tc_009_ComCylSales - Customer Is Selected
+
+2024-03-14 18:00:03 INFO  Mylpgbooks:72 - transactions.Tc_009_ComCylSales - Selected Purchase Order Number
+
+2024-03-14 18:00:04 INFO  Mylpgbooks:74 - transactions.Tc_009_ComCylSales - Payment Terms Selected
+
+2024-03-14 18:00:04 INFO  Mylpgbooks:76 - transactions.Tc_009_ComCylSales - Vehicle Selected For Transportation
+
+2024-03-14 18:00:04 INFO  Mylpgbooks:78 - transactions.Tc_009_ComCylSales - Product Selected From List
+
+2024-03-14 18:00:04 INFO  Mylpgbooks:80 - transactions.Tc_009_ComCylSales - Discount Entered
+
+2024-03-14 18:00:04 INFO  Mylpgbooks:82 - transactions.Tc_009_ComCylSales - Quantity Entered 
+
+2024-03-14 18:00:06 INFO  Mylpgbooks:85 - transactions.Tc_009_ComCylSales - Psv Quantity Entered
+
+2024-03-14 18:00:06 INFO  Mylpgbooks:87 - transactions.Tc_009_ComCylSales - Quantity Entered For Empties Received
+
+2024-03-14 18:00:06 INFO  Mylpgbooks:89 - transactions.Tc_009_ComCylSales - Selected Person By Whom Delivered By 
+
+2024-03-14 18:00:06 INFO  Mylpgbooks:91 - transactions.Tc_009_ComCylSales - Selected Bank Account To Credit Amount
+
+2024-03-14 18:00:15 INFO  Mylpgbooks:94 - transactions.Tc_009_ComCylSales - Selected Area Code For Delivery 
+
+2024-03-14 18:00:16 INFO  Mylpgbooks:96 - transactions.Tc_009_ComCylSales - Clicked On Fetch Invoice Button
+
+2024-03-14 18:00:18 INFO  Mylpgbooks:99 - transactions.Tc_009_ComCylSales - Clicked On Fetch Gst Button
+
+2024-03-14 18:00:20 INFO  Mylpgbooks:102 - transactions.Tc_009_ComCylSales - Clicked On Calculate Button
+
+2024-03-14 18:00:22 INFO  Mylpgbooks:105 - transactions.Tc_009_ComCylSales - Clicked On Save Button
+

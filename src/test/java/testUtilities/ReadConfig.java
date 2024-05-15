@@ -9,6 +9,7 @@ public class ReadConfig {
 Properties pro;
 	
 	public ReadConfig() {
+	
 		File src=new File("./Config/config.properties");
 		try {
 			FileInputStream fis=new FileInputStream(src);
@@ -37,5 +38,13 @@ Properties pro;
 	public String chrome() {
 		String chrmpth=pro.getProperty("chromepath");
 		return chrmpth;
+	}
+	public String firefox() {
+		String geckpath=pro.getProperty("geckopath");
+		return geckpath;
+	}
+	public String EdgeBrowser() {
+		String Edgepath=pro.getProperty("edgepath");
+		return Edgepath;
 	}
 }

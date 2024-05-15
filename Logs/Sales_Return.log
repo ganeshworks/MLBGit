@@ -1,0 +1,16 @@
+2024-03-14 13:02:23 INFO  Mylpgbooks:30 - Agencyid Entered
+2024-03-14 13:02:23 INFO  Mylpgbooks:32 - Password Entered
+2024-03-14 13:02:25 INFO  Mylpgbooks:56 - transactions.Tc_012_SalesReturn - Clicked On Transactions
+2024-03-14 13:02:25 INFO  Mylpgbooks:58 - transactions.Tc_012_SalesReturn - Clicked On Sales
+2024-03-14 13:02:27 INFO  Mylpgbooks:61 - transactions.Tc_012_SalesReturn - Clicked On SalesReturn
+2024-03-14 13:02:29 INFO  Mylpgbooks:64 - transactions.Tc_012_SalesReturn - Clicked On Add Buttton
+2024-03-14 13:02:31 INFO  Mylpgbooks:67 - transactions.Tc_012_SalesReturn - Sales Invoice Number Entered
+2024-03-14 13:02:31 INFO  Mylpgbooks:69 - transactions.Tc_012_SalesReturn - Sales Invoice Date Entered
+2024-03-14 13:02:34 INFO  Mylpgbooks:74 - transactions.Tc_012_SalesReturn - Payment Terms Selected
+2024-03-14 13:02:35 INFO  Mylpgbooks:76 - transactions.Tc_012_SalesReturn - Product Selected From List
+2024-03-14 13:02:35 INFO  Mylpgbooks:78 - transactions.Tc_012_SalesReturn - Return Qunatity Entered
+2024-03-14 13:02:35 INFO  Mylpgbooks:80 - transactions.Tc_012_SalesReturn - Net Weight Entered
+2024-03-14 13:02:37 INFO  Mylpgbooks:83 - transactions.Tc_012_SalesReturn - Bank Selected For Return The Sale
+2024-03-14 13:02:38 INFO  Mylpgbooks:85 - transactions.Tc_012_SalesReturn - Clicked On FetchGst Button
+2024-03-14 13:02:40 INFO  Mylpgbooks:88 - transactions.Tc_012_SalesReturn - Clicked On Calculate Button
+2024-03-14 13:02:42 INFO  Mylpgbooks:91 - transactions.Tc_012_SalesReturn - Clicked On Save Button

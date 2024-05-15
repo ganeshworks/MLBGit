@@ -1,0 +1,16 @@
+2024-03-13 16:27:53 INFO  Mylpgbooks:27 - Agencyid Entered
+2024-03-13 16:27:53 INFO  Mylpgbooks:29 - Password Entered
+2024-03-13 16:27:54 INFO  Mylpgbooks:57 - testCases.Tc_005_BankMaster - Clicked On Master Data
+2024-03-13 16:27:58 INFO  Mylpgbooks:60 - testCases.Tc_005_BankMaster - Clicked On Bank Master
+2024-03-13 16:27:58 INFO  Mylpgbooks:62 - testCases.Tc_005_BankMaster - Pin Entered
+2024-03-13 16:27:59 INFO  Mylpgbooks:64 - testCases.Tc_005_BankMaster - Pin Submited
+2024-03-13 16:28:01 INFO  Mylpgbooks:67 - testCases.Tc_005_BankMaster - Clicked On Add Button
+2024-03-13 16:28:03 INFO  Mylpgbooks:70 - testCases.Tc_005_BankMaster - NickName Entered
+2024-03-13 16:28:03 INFO  Mylpgbooks:72 - testCases.Tc_005_BankMaster - Bank Selected
+2024-03-13 16:28:04 INFO  Mylpgbooks:74 - testCases.Tc_005_BankMaster - Bank type Selected
+2024-03-13 16:28:04 INFO  Mylpgbooks:76 - testCases.Tc_005_BankMaster - Acc No Entered
+2024-03-13 16:28:04 INFO  Mylpgbooks:78 - testCases.Tc_005_BankMaster - Acc Branch Entered
+2024-03-13 16:28:06 INFO  Mylpgbooks:81 - testCases.Tc_005_BankMaster - Ifsc Entered
+2024-03-13 16:28:06 INFO  Mylpgbooks:83 - testCases.Tc_005_BankMaster - Address Entered
+2024-03-13 16:28:06 INFO  Mylpgbooks:85 - testCases.Tc_005_BankMaster - OpBalance Entered
+2024-03-13 16:28:09 INFO  Mylpgbooks:88 - testCases.Tc_005_BankMaster - Clicked On Save

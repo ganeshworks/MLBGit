@@ -8,8 +8,9 @@
     <classes>
       <class name="testCases.Tc_Equipment">
         <methods>
-          <include name="testEquip"/>
           <include name="setup"/>
+          <include name="testEquip"/>
+          <include name="Aftermthd"/>
         </methods>
       </class> <!-- testCases.Tc_Equipment -->
     </classes>

@@ -1,0 +1,17 @@
+2024-03-13 13:52:54 INFO  Mylpgbooks:25 - testCases.Tc_001_ServicesMasterAgencyid Entered
+2024-03-13 13:52:54 INFO  Mylpgbooks:27 - testCases.Tc_001_ServicesMasterPassword Entered
+2024-03-13 13:52:54 INFO  Mylpgbooks:32 - testCases.Tc_001_ServicesMasterClicked On Submit
+2024-03-13 13:52:55 INFO  Mylpgbooks:54 - testCases.Tc_001_ServicesMasterClicked On MasterData
+2024-03-13 13:52:56 INFO  Mylpgbooks:56 - testCases.Tc_001_ServicesMasterClicked On Product Master
+2024-03-13 13:52:56 INFO  Mylpgbooks:58 - testCases.Tc_001_ServicesMasterClicked On Services Master
+2024-03-13 13:52:57 INFO  Mylpgbooks:60 - testCases.Tc_001_ServicesMasterOffer Dropdown Selected
+2024-03-13 13:52:57 INFO  Mylpgbooks:62 - testCases.Tc_001_ServicesMasterClicked On Submit
+2024-03-13 13:52:59 INFO  Mylpgbooks:66 - testCases.Tc_001_ServicesMasterClicked On Add
+2024-03-13 13:52:59 INFO  Mylpgbooks:68 - testCases.Tc_001_ServicesMasterService Name Added
+2024-03-13 13:52:59 INFO  Mylpgbooks:70 - testCases.Tc_001_ServicesMasterSac Code Added
+2024-03-13 13:53:00 INFO  Mylpgbooks:72 - testCases.Tc_001_ServicesMasterUnits Selected From List
+2024-03-13 13:53:00 INFO  Mylpgbooks:74 - testCases.Tc_001_ServicesMasterAdded Charges
+2024-03-13 13:53:00 INFO  Mylpgbooks:76 - testCases.Tc_001_ServicesMasterSelected Gst From List
+2024-03-13 13:53:00 INFO  Mylpgbooks:78 - testCases.Tc_001_ServicesMasterClicked on Calculate
+2024-03-13 13:53:00 INFO  Mylpgbooks:80 - testCases.Tc_001_ServicesMasterEffective Date Added
+2024-03-13 13:53:00 INFO  Mylpgbooks:82 - testCases.Tc_001_ServicesMasterClicked On Save

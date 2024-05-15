@@ -1,0 +1,18 @@
+2024-03-14 12:46:06 INFO  Mylpgbooks:30 - Agencyid Entered
+2024-03-14 12:46:06 INFO  Mylpgbooks:32 - Password Entered
+2024-03-14 12:46:06 INFO  Mylpgbooks:55 - transactions.Tc_010_ARBSales - Clicked On Transactions
+2024-03-14 12:46:07 INFO  Mylpgbooks:57 - transactions.Tc_010_ARBSales - Clicked On Sales
+2024-03-14 12:46:09 INFO  Mylpgbooks:60 - transactions.Tc_010_ARBSales - Clicked On Blpg/Arb/Nfr Sales
+2024-03-14 12:46:11 INFO  Mylpgbooks:63 - transactions.Tc_010_ARBSales - Clicked On Add Button
+2024-03-14 12:46:13 INFO  Mylpgbooks:66 - transactions.Tc_010_ARBSales - Sales Date Entered 
+2024-03-14 12:46:16 INFO  Mylpgbooks:69 - transactions.Tc_010_ARBSales - Customer Selected
+2024-03-14 12:46:16 INFO  Mylpgbooks:71 - transactions.Tc_010_ARBSales - Payment Terms Selected
+2024-03-14 12:46:17 INFO  Mylpgbooks:73 - transactions.Tc_010_ARBSales - Staff Selected For Responsible
+2024-03-14 12:46:17 INFO  Mylpgbooks:75 - transactions.Tc_010_ARBSales - Vehicle Selected For Transportation
+2024-03-14 12:46:18 INFO  Mylpgbooks:77 - transactions.Tc_010_ARBSales - Product Is Selected From List
+2024-03-14 12:46:18 INFO  Mylpgbooks:79 - transactions.Tc_010_ARBSales - Discount Entered
+2024-03-14 12:46:18 INFO  Mylpgbooks:81 - transactions.Tc_010_ARBSales - Quantity Entered
+2024-03-14 12:46:20 INFO  Mylpgbooks:84 - transactions.Tc_010_ARBSales - Bank Selected From List
+2024-03-14 12:46:22 INFO  Mylpgbooks:87 - transactions.Tc_010_ARBSales - Clicked On fetch Price Button
+2024-03-14 12:46:25 INFO  Mylpgbooks:90 - transactions.Tc_010_ARBSales - Clicked On Calculate Button
+2024-03-14 12:46:27 INFO  Mylpgbooks:93 - transactions.Tc_010_ARBSales - Clicked On Save

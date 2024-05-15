@@ -22,17 +22,23 @@ public class Dom_Cyl_Sales {
 	By Payterms=By.xpath("//div[@class='Modal_centered__qwdvX']//div[4]//select[1]");
 	By Proddrop= By.xpath("//td[1]//div[1]//select[1]");
 	By Dicont=By.xpath("//input[@placeholder='DISCOUNT ON UNIT PRICE']");
-	By Qanty=By.xpath("//input[@placeholder='Quantity']");
-	By Digi=By.xpath("//input[@placeholder='PREPAID CYLINDERS']");
-	By Psv=By.xpath("//input[@placeholder='PSV QUANTITY']");
-	By DeleverdBy=By.xpath("//td[8]//div[1]//select[1]");
-	By BankAcount=By.xpath("//td[9]//div[1]//select[1]");
-	By AreaCode=By.xpath("//td[10]//div[1]//select[1]");
+	By Qanty=By.xpath("//tr[2]//td[5]//div[1]//div[1]//input[1]");
+	By Digi=By.xpath("//tr[3]//td[6]//div[1]//div[1]//input[1]");
+	By Psv=By.xpath("//tr[3]//td[7]//div[1]//div[1]//input[1]");
+	By DeleverdBy=By.xpath("//tr[3]//td[8]//div[1]//select[1]");
+	
+	By AreaCode=By.xpath("//tr[3]//td[9]//div[1]//select[1]");
 	By FetchInvoioce=By.xpath("//div[normalize-space()='FETCH INVOICE NUMBER']");
 	By FetchPrice=By.xpath("//div[normalize-space()='FETCH PRICE']");
 	By Calculate=By.xpath("//div[normalize-space()='CALCULATE']");
 	By AddRow=By.xpath("//div[contains(@class,'flex aic gap10')]//div[contains(@role,'button')][normalize-space()='ADD']");
 	By Save=By.xpath("//div[normalize-space()='SAVE']");
+	
+	By CashRecvd=By.xpath("//input[contains(@placeholder,'CASH RECIEVED')]");
+	By Onlinerecvd=By.xpath("//input[@placeholder='ONLINE RCVD AMOUNT']");
+	By Transid=By.xpath("//input[@placeholder='TRANSACTION ID']");
+	By CashRecvdFrom=By.xpath("//div[9]//select[1]");
+	By BankAcount=By.xpath("//div[10]//select[1]");
 	
 	public void ClickonTransactions() {
 		driver.findElement(Transactions).click();
@@ -56,20 +62,20 @@ public class Dom_Cyl_Sales {
 		driver.findElement(CustName).click();
 		WebElement ss = driver.findElement(CustName);
 		Select s = new Select(ss);
-		s.selectByIndex(0);
+		s.selectByIndex(3);
 	}
 
 	public void SelectPayterms() {
 		driver.findElement(Payterms).click();
 		WebElement ss = driver.findElement(Payterms);
 		Select s = new Select(ss);
-		s.selectByIndex(1);
+		s.selectByIndex(2);
 	}
 	public void SelectProdfromlist() {
 		driver.findElement(Proddrop).click();
 		WebElement ss = driver.findElement(Proddrop);
 		Select s = new Select(ss);
-		s.selectByIndex(0);
+		s.selectByIndex(1);
 	}
 	public void Enterdisc(String num) {
 		driver.findElement(Dicont).sendKeys(num);
@@ -104,6 +110,28 @@ public class Dom_Cyl_Sales {
 	public void ClickOnFetchInvoice() {
 		driver.findElement(FetchInvoioce).click();
 	}
+	public void EnterCashRecvd(String num) {
+		driver.findElement(CashRecvd).sendKeys(num);
+	}
+	public void EnterOnlineRecvd(String num) {
+		driver.findElement(Onlinerecvd).sendKeys(num);
+	}
+	public void EnterTransId(String num) {
+		driver.findElement(Transid).sendKeys(num);
+	}
+	public void SelectPlatform() {
+		driver.findElement(CashRecvdFrom).click();
+		WebElement ss = driver.findElement(CashRecvdFrom);
+		Select s = new Select(ss);
+		s.selectByIndex(0);
+	}
+	public void SelectCashRecvdbank() {
+		driver.findElement(BankAcount).click();
+		WebElement ss = driver.findElement(BankAcount);
+		Select s = new Select(ss);
+		s.selectByIndex(0);
+	}
+	
 	public void ClickOnFetchPrice() {
 		driver.findElement(FetchPrice).click();
 	}

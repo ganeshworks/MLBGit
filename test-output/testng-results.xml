@@ -1,39 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
+<testng-results ignored="1" total="4" passed="1" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-03-11T16:54:02 IST" name="Default suite" finished-at="2024-03-11T16:54:34 IST" duration-ms="32609">
+  <suite started-at="2024-05-14T18:42:01 IST" name="Default suite" finished-at="2024-05-14T18:44:06 IST" duration-ms="125097">
     <groups>
     </groups>
-    <test started-at="2024-03-11T16:54:02 IST" name="Default test" finished-at="2024-03-11T16:54:34 IST" duration-ms="32609">
-      <class name="testCases.Tc_003_CustVendor_Master">
-        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.Tc_003_CustVendor_Master@66f57048]" started-at="2024-03-11T16:54:02 IST" name="setup" finished-at="2024-03-11T16:54:06 IST" duration-ms="4668" status="PASS">
+    <test started-at="2024-05-14T18:42:01 IST" name="Default test" finished-at="2024-05-14T18:44:06 IST" duration-ms="125097">
+      <class name="transactions.Tc_001_Cylinder_Purchases">
+        <test-method is-config="true" signature="setup()[pri:0, instance:transactions.Tc_001_Cylinder_Purchases@a776e]" started-at="2024-05-14T18:42:01 IST" name="setup" finished-at="2024-05-14T18:42:04 IST" duration-ms="2480" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="login()[pri:1, instance:testCases.Tc_003_CustVendor_Master@66f57048]" started-at="2024-03-11T16:54:06 IST" name="login" finished-at="2024-03-11T16:54:08 IST" duration-ms="1743" status="PASS">
+        <test-method signature="login()[pri:1, instance:transactions.Tc_001_Cylinder_Purchases@a776e]" started-at="2024-05-14T18:42:04 IST" name="login" finished-at="2024-05-14T18:42:13 IST" duration-ms="9184" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="CustVendor()[pri:2, instance:testCases.Tc_003_CustVendor_Master@66f57048]" started-at="2024-03-11T16:54:08 IST" name="CustVendor" finished-at="2024-03-11T16:54:34 IST" duration-ms="26161" status="FAIL">
+        <test-method signature="multi_cyl_Purchase()[pri:2, instance:transactions.Tc_001_Cylinder_Purchases@a776e]" started-at="2024-05-14T18:42:13 IST" name="multi_cyl_Purchase" finished-at="2024-05-14T18:43:13 IST" duration-ms="60049" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[Cannot locate option with index: 2
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="root"]/div[1]/div[3]/div[2]/div/div[8]/div/div[2]/div[2]/div[2]"}
+  (Session info: chrome=124.0.6367.202)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-4L4F65Q', ip: '192.168.1.9', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4'
-Driver info: driver.version: unknown]]>
+System info: host: 'DESKTOP-4L4F65Q', ip: '192.168.1.2', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.202, chrome: {chromedriverVersion: 124.0.6367.201 (46cf136d27d..., userDataDir: C:\Users\DELL\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61478}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d3959e33db98c567595ad5eda67660f9
+*** Element info: {Using=xpath, value=//*[@id="root"]/div[1]/div[3]/div[2]/div/div[8]/div/div[2]/div[2]/div[2]}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: Cannot locate option with index: 2
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="root"]/div[1]/div[3]/div[2]/div/div[8]/div/div[2]/div[2]/div[2]"}
+  (Session info: chrome=124.0.6367.202)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-4L4F65Q', ip: '192.168.1.9', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4'
-Driver info: driver.version: unknown
-at org.openqa.selenium.support.ui.Select.setSelectedByIndex(Select.java:297)
-at org.openqa.selenium.support.ui.Select.selectByIndex(Select.java:172)
-at testPageObjects.Cust_Vendor_Master.EnterLocation(Cust_Vendor_Master.java:109)
-at testCases.Tc_003_CustVendor_Master.CustVendor(Tc_003_CustVendor_Master.java:66)
+System info: host: 'DESKTOP-4L4F65Q', ip: '192.168.1.2', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.202, chrome: {chromedriverVersion: 124.0.6367.201 (46cf136d27d..., userDataDir: C:\Users\DELL\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61478}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d3959e33db98c567595ad5eda67660f9
+*** Element info: {Using=xpath, value=//*[@id="root"]/div[1]/div[3]/div[2]/div/div[8]/div/div[2]/div[2]/div[2]}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at testPageObjects.Cylinder_Purchases.ClickonLoadSub(Cylinder_Purchases.java:422)
+at transactions.Tc_001_Cylinder_Purchases.multi_cyl_Purchase(Tc_001_Cylinder_Purchases.java:338)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -67,8 +88,64 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- CustVendor -->
-      </class> <!-- testCases.Tc_003_CustVendor_Master -->
+        </test-method> <!-- multi_cyl_Purchase -->
+        <test-method signature="Delete()[pri:3, instance:transactions.Tc_001_Cylinder_Purchases@a776e]" started-at="2024-05-14T18:43:13 IST" name="Delete" finished-at="2024-05-14T18:44:06 IST" duration-ms="53348" status="FAIL">
+          <exception class="junit.framework.ComparisonFailure">
+            <message>
+              <![CDATA[expected:<...49644124-Apr-2024
+DOMESTIC - 5 Kg RefillNOS527111990700507856425318-Apr-2024
+COMMERCIAL - 35 Kg VOTNOS1827111990400045008700-105145417-Apr-2024
+REGULATOR - FTLNOS18848110002955477045...> but was:<...59654124-Apr-2024
+DOMESTIC - 5 Kg RefillNOS527111990700507846425318-Apr-2024
+COMMERCIAL - 35 Kg VOTNOS1827111990400045008700-205145417-Apr-2024
+REGULATOR - FTLNOS18848110002955477044...>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[junit.framework.ComparisonFailure: expected:<...49644124-Apr-2024
+DOMESTIC - 5 Kg RefillNOS527111990700507856425318-Apr-2024
+COMMERCIAL - 35 Kg VOTNOS1827111990400045008700-105145417-Apr-2024
+REGULATOR - FTLNOS18848110002955477045...> but was:<...59654124-Apr-2024
+DOMESTIC - 5 Kg RefillNOS527111990700507846425318-Apr-2024
+COMMERCIAL - 35 Kg VOTNOS1827111990400045008700-205145417-Apr-2024
+REGULATOR - FTLNOS18848110002955477044...>
+at junit.framework.Assert.assertEquals(Assert.java:81)
+at junit.framework.Assert.assertEquals(Assert.java:87)
+at transactions.Tc_001_Cylinder_Purchases.Delete(Tc_001_Cylinder_Purchases.java:490)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- junit.framework.ComparisonFailure -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Delete -->
+      </class> <!-- transactions.Tc_001_Cylinder_Purchases -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

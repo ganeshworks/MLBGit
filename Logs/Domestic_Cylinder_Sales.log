@@ -1,0 +1,22 @@
+2024-03-14 12:06:47 INFO  Mylpgbooks:31 - transactions.Tc_008_DomCylSales - Agency Id Entered
+2024-03-14 12:06:48 INFO  Mylpgbooks:33 - transactions.Tc_008_DomCylSales - Password Entered
+2024-03-14 12:06:48 INFO  Mylpgbooks:36 - transactions.Tc_008_DomCylSales - Clicked On Submit
+2024-03-14 12:06:48 INFO  Mylpgbooks:57 - transactions.Tc_008_DomCylSales - Clicked On Transactions
+2024-03-14 12:06:48 INFO  Mylpgbooks:59 - transactions.Tc_008_DomCylSales - Clicked On Sales
+2024-03-14 12:06:51 INFO  Mylpgbooks:62 - transactions.Tc_008_DomCylSales - Clicked On Domestic Sales
+2024-03-14 12:06:53 INFO  Mylpgbooks:65 - transactions.Tc_008_DomCylSales - Clicked On Add Button
+2024-03-14 12:06:55 INFO  Mylpgbooks:68 - transactions.Tc_008_DomCylSales - Entered Sales Date
+2024-03-14 12:06:58 INFO  Mylpgbooks:71 - transactions.Tc_008_DomCylSales - Customer Selected
+2024-03-14 12:06:58 INFO  Mylpgbooks:73 - transactions.Tc_008_DomCylSales - Payment Terms Selected
+2024-03-14 12:06:58 INFO  Mylpgbooks:75 - transactions.Tc_008_DomCylSales - Selected Product From List
+2024-03-14 12:06:59 INFO  Mylpgbooks:77 - transactions.Tc_008_DomCylSales - Discount Entered
+2024-03-14 12:06:59 INFO  Mylpgbooks:79 - transactions.Tc_008_DomCylSales - Quantity Entered
+2024-03-14 12:07:01 INFO  Mylpgbooks:82 - transactions.Tc_008_DomCylSales - Digi Cylinders Count Entered
+2024-03-14 12:07:01 INFO  Mylpgbooks:84 - transactions.Tc_008_DomCylSales - Psv Cylinders Count Entered
+2024-03-14 12:07:01 INFO  Mylpgbooks:86 - transactions.Tc_008_DomCylSales - Selected Person By Whom Delivered By 
+2024-03-14 12:07:01 INFO  Mylpgbooks:88 - transactions.Tc_008_DomCylSales - Selected Bank Account To Credit Amount
+2024-03-14 12:07:04 INFO  Mylpgbooks:91 - transactions.Tc_008_DomCylSales - Selected Area Code For Delivery
+2024-03-14 12:07:04 INFO  Mylpgbooks:93 - transactions.Tc_008_DomCylSales - Clicked On Fetch Invoice Number Button
+2024-03-14 12:07:06 INFO  Mylpgbooks:96 - transactions.Tc_008_DomCylSales - Clicked On Fetch Price Button
+2024-03-14 12:07:08 INFO  Mylpgbooks:99 - transactions.Tc_008_DomCylSales - Clicked On Calculate Button
+2024-03-14 12:07:11 INFO  Mylpgbooks:102 - transactions.Tc_008_DomCylSales - Clicked On Save Button

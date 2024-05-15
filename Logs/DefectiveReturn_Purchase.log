@@ -1,0 +1,17 @@
+2024-03-13 18:43:00 INFO  Mylpgbooks:28 - Agencyid Entered
+2024-03-13 18:43:00 INFO  Mylpgbooks:30 - Password Entered
+2024-03-13 18:43:01 INFO  Mylpgbooks:54 - transactions.Tc_004_Def_ReturnData - Clicked On Transactions
+2024-03-13 18:43:02 INFO  Mylpgbooks:56 - transactions.Tc_004_Def_ReturnData - Clicked On Purchases
+2024-03-13 18:43:04 INFO  Mylpgbooks:59 - transactions.Tc_004_Def_ReturnData - Clicked On Defective Purchase Return 
+2024-03-13 18:43:06 INFO  Mylpgbooks:62 - transactions.Tc_004_Def_ReturnData - Clicked On Add Button
+2024-03-13 18:43:06 INFO  Mylpgbooks:64 - transactions.Tc_004_Def_ReturnData - Entered Invoice Number
+2024-03-13 18:43:06 INFO  Mylpgbooks:66 - transactions.Tc_004_Def_ReturnData - Entered Invoice Date
+2024-03-13 18:43:06 INFO  Mylpgbooks:68 - transactions.Tc_004_Def_ReturnData - Entered Vendor Name
+2024-03-13 18:43:07 INFO  Mylpgbooks:70 - transactions.Tc_004_Def_ReturnData - Entered Narration
+2024-03-13 18:43:08 INFO  Mylpgbooks:72 - transactions.Tc_004_Def_ReturnData - Selected Product From DropDown
+2024-03-13 18:43:08 INFO  Mylpgbooks:74 - transactions.Tc_004_Def_ReturnData - Entered Return Quantity
+2024-03-13 18:43:08 INFO  Mylpgbooks:76 - transactions.Tc_004_Def_ReturnData - Entered Net Quantity
+2024-03-13 18:43:08 INFO  Mylpgbooks:78 - transactions.Tc_004_Def_ReturnData - Entered Vehicle Numbeer
+2024-03-13 18:43:08 INFO  Mylpgbooks:80 - transactions.Tc_004_Def_ReturnData - Clicked On FetchGst Button
+2024-03-13 18:43:08 INFO  Mylpgbooks:82 - transactions.Tc_004_Def_ReturnData - Clicked On Calculate Button
+2024-03-13 18:43:08 INFO  Mylpgbooks:84 - transactions.Tc_004_Def_ReturnData - Clicked On Save Button

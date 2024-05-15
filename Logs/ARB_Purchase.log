@@ -1,0 +1,33 @@
+2024-03-13 18:18:49 INFO  Mylpgbooks:27 - Agencyid Entered
+2024-03-13 18:18:49 INFO  Mylpgbooks:29 - Password Entered
+2024-03-13 18:18:49 INFO  Mylpgbooks:54 - transactions.Tc_002_ArbPurchase - Clicked On Transactions
+2024-03-13 18:18:51 INFO  Mylpgbooks:56 - transactions.Tc_002_ArbPurchase - Clicked On Purchases
+2024-03-13 18:18:51 INFO  Mylpgbooks:58 - transactions.Tc_002_ArbPurchase - Clicked On Arb Purchases
+2024-03-13 18:18:51 INFO  Mylpgbooks:60 - transactions.Tc_002_ArbPurchase - Clicked On Add Button
+2024-03-13 18:18:54 INFO  Mylpgbooks:64 - transactions.Tc_002_ArbPurchase - Entered Invoice Number
+2024-03-13 18:18:54 INFO  Mylpgbooks:66 - transactions.Tc_002_ArbPurchase - Entered Invoice Date
+2024-03-13 18:18:56 INFO  Mylpgbooks:69 - transactions.Tc_002_ArbPurchase - Entered Stock Received Date
+2024-03-13 18:18:56 INFO  Mylpgbooks:71 - transactions.Tc_002_ArbPurchase - Select Vendor  From List
+2024-03-13 18:18:56 INFO  Mylpgbooks:73 - transactions.Tc_002_ArbPurchase - Select Reverse Charge
+2024-03-14 18:04:37 INFO  Mylpgbooks:27 - Agencyid Entered
+
+2024-03-14 18:04:37 INFO  Mylpgbooks:29 - Password Entered
+
+2024-03-14 18:04:38 INFO  Mylpgbooks:54 - transactions.Tc_002_ArbPurchase - Clicked On Transactions
+
+2024-03-14 18:04:39 INFO  Mylpgbooks:56 - transactions.Tc_002_ArbPurchase - Clicked On Purchases
+
+2024-03-14 18:04:39 INFO  Mylpgbooks:58 - transactions.Tc_002_ArbPurchase - Clicked On Arb Purchases
+
+2024-03-14 18:04:40 INFO  Mylpgbooks:60 - transactions.Tc_002_ArbPurchase - Clicked On Add Button
+
+2024-03-14 18:04:42 INFO  Mylpgbooks:64 - transactions.Tc_002_ArbPurchase - Entered Invoice Number
+
+2024-03-14 18:04:42 INFO  Mylpgbooks:66 - transactions.Tc_002_ArbPurchase - Entered Invoice Date
+
+2024-03-14 18:04:44 INFO  Mylpgbooks:69 - transactions.Tc_002_ArbPurchase - Entered Stock Received Date
+
+2024-03-14 18:04:44 INFO  Mylpgbooks:71 - transactions.Tc_002_ArbPurchase - Select Vendor  From List
+
+2024-03-14 18:04:45 INFO  Mylpgbooks:73 - transactions.Tc_002_ArbPurchase - Select Reverse Charge
+
