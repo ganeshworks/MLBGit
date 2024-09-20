@@ -64,7 +64,7 @@ public class Reporting extends TestListenerAdapter {
 
 		
 		
-<<<<<<< HEAD
+//<<<<<<< HEAD
 		  logger = extent.createTest(tr.getName());
 		  logger.log(Status.FAIL,MarkupHelper.createLabel(tr.getName(), ExtentColor.RED)); 
 		  String path = System.getProperty("user.dir") + "/SS/" + ".png"; File f = new File(path); 
@@ -76,14 +76,16 @@ public class Reporting extends TestListenerAdapter {
 			  catch (Exception e) {
 		  
 				  e.printStackTrace(); } }
-=======
+//=======
 		  logger = extent.createTest(tr.getName()); logger.log(Status.FAIL,
-		  MarkupHelper.createLabel(tr.getName(), ExtentColor.RED)); String path =
-		  System.getProperty("user.dir") + "/SS/" + ".png"; File f = new File(path); if
-		  (f.exists()) { try { logger.fail("screenshot is" +
-		  logger.addScreenCaptureFromPath(path)); } catch (Exception e) {
+		  MarkupHelper.createLabel(tr.getName(), ExtentColor.RED));
+		  String path1 =
+		  System.getProperty("user.dir") + "/SS/" + ".png"; 
+		  File f1 = new File(path1); if
+		  (f1.exists()) { try { logger.fail("screenshot is" +
+		  logger.addScreenCaptureFromPath(path1)); } catch (Exception e) {
 		  e.printStackTrace(); } }
->>>>>>> a192858e0b1d6d8928e2db07eaf691695b681a20
+//>>>>>>> a192858e0b1d6d8928e2db07eaf691695b681a20
 		 
 	}
 
