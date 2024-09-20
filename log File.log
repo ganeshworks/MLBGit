@@ -17484,6 +17484,7 @@
 
 2024-04-16 19:19:34 INFO  Mylpgbooks:475 - transactions.Tc_003_OtherPurchases - Clicked On Save
 
+<<<<<<< HEAD
 2024-05-10 13:14:28 INFO  Mylpgbooks:38 - Agencyid Entered
 
 2024-05-10 13:14:28 INFO  Mylpgbooks:40 - Password Entered
@@ -20974,3 +20975,5 @@
 
 2024-08-28 11:08:37 INFO  Mylpgbooks:337 - transactions.Tc_001_Cylinder_Purchases - Clicked On Save
 
+=======
+>>>>>>> a192858e0b1d6d8928e2db07eaf691695b681a20

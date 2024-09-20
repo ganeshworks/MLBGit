@@ -33,7 +33,22 @@ public class Tc_013_NcDbc_Transactions extends BaseClass {
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 		l.submitclick();
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+<<<<<<< HEAD
 		
+=======
+		/*
+		 * logg.info("Clicked On Submit"); l.ClickOnProfile();
+		 */
+
+		/*
+		 * logg.info("Clicked On Profile"); driver.manage().timeouts().implicitlyWait(5,
+		 * TimeUnit.SECONDS);
+		 * 
+		 * l.ClickOnSinout(); logg.info("Clicked On Signout");
+		 * driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+		 * l.ClickingOnSinout(); logg.info("Confirm For Signout");
+		 */
+>>>>>>> a192858e0b1d6d8928e2db07eaf691695b681a20
 
 	}
 	@Test(priority = 2)
@@ -53,11 +68,16 @@ public class Tc_013_NcDbc_Transactions extends BaseClass {
 		Thread.sleep(2000);
 		Nc.ClickOnAdd();
 		logg.info(getClass().getName() + " - "+"Clicked On Add Button");
+<<<<<<< HEAD
 		Nc.EnterInvoiceDate("05/20/2024");
+=======
+		Nc.EnterInvoiceDate("03/12/2024");
+>>>>>>> a192858e0b1d6d8928e2db07eaf691695b681a20
 		logg.info(getClass().getName() + " - "+"Invoice Date Entered");
 		Thread.sleep(2000);
 		Nc.SelectInvoiceAmt();
 		logg.info(getClass().getName() + " - "+"Invoice Amount Entered");
+<<<<<<< HEAD
 		Nc.EnterCustName("1000006");
 		logg.info(getClass().getName() + " - "+"Customer Name Entered");
 		Thread.sleep(2000);
@@ -66,6 +86,16 @@ public class Tc_013_NcDbc_Transactions extends BaseClass {
 		//Nc.EnterAmtRecvdOnline("1000");
 		logg.info(getClass().getName() + " - "+"Online Received Amount Entered");
 		//Nc.SelectBank();
+=======
+		Nc.EnterCustName("Veramasa");
+		logg.info(getClass().getName() + " - "+"Customer Name Entered");
+		Thread.sleep(2000);
+		Nc.EnterCashRecvd("1000");
+		logg.info(getClass().getName() + " - "+"Cash Received Amount Entered");
+		Nc.EnterAmtRecvdOnline("1000");
+		logg.info(getClass().getName() + " - "+"Online Received Amount Entered");
+		Nc.SelectBank();
+>>>>>>> a192858e0b1d6d8928e2db07eaf691695b681a20
 		logg.info(getClass().getName() + " - "+"Bank Selected TO Credit The Amount");
 		Thread.sleep(2000);
 		Nc.ClickOnFetchDepAndCharges();

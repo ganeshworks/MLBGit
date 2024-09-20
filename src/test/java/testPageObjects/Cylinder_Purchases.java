@@ -65,6 +65,7 @@ public class Cylinder_Purchases {
 	By DriverName4 = By.xpath("//tr[5]//td[11]//div[1]//div[1]//input[1]");
 	By GodwnDrop4 = By.xpath("//tr[5]//td[12]//div[1]//select[1]");
 	By RecevdBy4 = By.xpath("//tr[5]//td[13]//div[1]//select[1]");
+<<<<<<< HEAD
 	
 	By LoadAccSub=By.xpath("//*[@id=\"root\"]/div[1]/div[3]/div[2]/div/div[8]/div/div[2]/div[2]/div[2]");
 	
@@ -76,6 +77,11 @@ public class Cylinder_Purchases {
 	By CardView=By.xpath("/html[1]/body[1]/div[1]/div[1]/div[3]/div[2]/div[1]/div[3]/div[1]/div[2]/div[1]/div[1]");
 	
 	
+=======
+
+	By Save = By.xpath("//div[normalize-space()='SAVE']");
+
+>>>>>>> a192858e0b1d6d8928e2db07eaf691695b681a20
 	public void ClickonTransactions() {
 		driver.findElement(Transactions).click();
 	}
@@ -418,9 +424,12 @@ public class Cylinder_Purchases {
 		
 		
 	}
+<<<<<<< HEAD
 	public void ClickonLoadSub() {
 		driver.findElement(LoadAccSub).click();
 	}
+=======
+>>>>>>> a192858e0b1d6d8928e2db07eaf691695b681a20
 
 	public void ClickonSave() {
 		driver.findElement(Save).click();
@@ -429,6 +438,7 @@ public class Cylinder_Purchases {
 	public void ClickonAddRow() {
 		driver.findElement(AddRow).click();
 	}
+<<<<<<< HEAD
 	
 	public void ClickonDeleteCard() {
 		driver.findElement(DeleteCard).click();
@@ -441,4 +451,7 @@ public class Cylinder_Purchases {
 		driver.findElement(CardView).click();
 	}
 	
+=======
+
+>>>>>>> a192858e0b1d6d8928e2db07eaf691695b681a20
 }

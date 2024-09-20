@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <testng-results ignored="1" total="4" passed="2" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
@@ -88,6 +89,29 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </reporter-output>
         </test-method> <!-- Delete -->
       </class> <!-- transactions.Tc_001_Cylinder_Purchases -->
+=======
+<testng-results ignored="2" total="4" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-16T19:18:32 IST" name="Default suite" finished-at="2024-04-16T19:19:36 IST" duration-ms="63194">
+    <groups>
+    </groups>
+    <test started-at="2024-04-16T19:18:32 IST" name="Default test" finished-at="2024-04-16T19:19:36 IST" duration-ms="63194">
+      <class name="transactions.Tc_003_OtherPurchases">
+        <test-method is-config="true" signature="setup()[pri:0, instance:transactions.Tc_003_OtherPurchases@42f48531]" started-at="2024-04-16T19:18:32 IST" name="setup" finished-at="2024-04-16T19:18:34 IST" duration-ms="1708" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="login()[pri:1, instance:transactions.Tc_003_OtherPurchases@42f48531]" started-at="2024-04-16T19:18:34 IST" name="login" finished-at="2024-04-16T19:18:39 IST" duration-ms="5094" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="expensesYesItcNo()[pri:2, instance:transactions.Tc_003_OtherPurchases@42f48531]" started-at="2024-04-16T19:18:39 IST" name="expensesYesItcNo" finished-at="2024-04-16T19:19:36 IST" duration-ms="56338" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- expensesYesItcNo -->
+      </class> <!-- transactions.Tc_003_OtherPurchases -->
+>>>>>>> a192858e0b1d6d8928e2db07eaf691695b681a20
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

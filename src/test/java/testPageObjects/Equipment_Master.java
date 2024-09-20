@@ -14,7 +14,11 @@ public class Equipment_Master {
 		driver = d;
 	}
 
+<<<<<<< HEAD
 	By MasterClick = By.xpath("//*[@id=\"root\"]/div[1]/div[1]/div/div[3]/div[2]");
+=======
+	By MasterClick = By.xpath("//div[contains(text(),'Master Data')]");
+>>>>>>> a192858e0b1d6d8928e2db07eaf691695b681a20
 	By ProductClick = By.xpath("/html/body/div/div[1]/div[1]/div/section/div[1]/div[2]");
 	By EquipmentClick = By.xpath("//*[@id=\"root\"]/div[1]/div[1]/div/section/div[2]/div[1]/div[2]");
 	By Drpdown = By.xpath("//select[@class='AO-2nd-ent-select']");
@@ -49,6 +53,7 @@ public class Equipment_Master {
 	By Empties3=By.xpath("//tr[4]//td[7]//div[1]//div[1]//input[1]");
 	By Date3= By.xpath("//tr[4]//td[8]//div[1]//div[1]//input[1]");
 	By Save3 = By.xpath("//div[normalize-space()='SAVE']");
+<<<<<<< HEAD
 	
 	//For Add Row 4
 		By AddProduct4 = By.xpath("//*[@id=\"root\"]/div[1]/div[3]/div[2]/div/div[1]/div[3]/div[1]");
@@ -72,6 +77,27 @@ public class Equipment_Master {
 	By TableSave=By.xpath("//*[@id=\"root\"]/div[1]/div[3]/div[2]/div/div[3]/div");
 	By Pagenation=By.xpath("//select[@class='AO-2nd-ent-select']");
 				
+=======
+	
+	//For Add Row 4
+		By AddProduct4 = By.xpath("//*[@id=\"root\"]/div[1]/div[3]/div[2]/div/div[1]/div[3]/div[1]");
+		By Productlist4 = By.xpath("//tr[3]//td[1]//div[1]//select[1]");
+		By Units4 = By.xpath("//tr[4]//td[2]//div[1]//select[1]");
+		By Fulls4 = By.xpath("//tr[4]//td[6]//div[1]//div[1]//input[1]");
+		By Empties4=By.xpath("//tr[4]//td[7]//div[1]//div[1]//input[1]");
+		By Date4= By.xpath("//tr[4]//td[8]//div[1]//div[1]//input[1]");
+		By Save4 = By.xpath("//div[normalize-space()='SAVE']");
+		
+	//For Add Row 4
+				By AddProduct5 = By.xpath("//*[@id=\"root\"]/div[1]/div[3]/div[2]/div/div[1]/div[3]/div[1]");
+				By Productlist5 = By.xpath("//tr[3]//td[1]//div[1]//select[1]");
+				By Units5 = By.xpath("//tr[4]//td[2]//div[1]//select[1]");
+				By Fulls5 = By.xpath("//tr[4]//td[6]//div[1]//div[1]//input[1]");
+				By Empties5=By.xpath("//tr[4]//td[7]//div[1]//div[1]//input[1]");
+				By Date5= By.xpath("//tr[4]//td[8]//div[1]//div[1]//input[1]");
+				By Save5 = By.xpath("//div[normalize-space()='SAVE']");
+	
+>>>>>>> a192858e0b1d6d8928e2db07eaf691695b681a20
 	public void ClickonMasterData() {
 		driver.findElement(MasterClick).click();
 	}

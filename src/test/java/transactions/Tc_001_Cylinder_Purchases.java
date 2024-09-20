@@ -12,9 +12,12 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.StaleElementReferenceException;
 import org.openqa.selenium.TakesScreenshot;
+<<<<<<< HEAD
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+=======
+>>>>>>> a192858e0b1d6d8928e2db07eaf691695b681a20
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.Test;
@@ -25,10 +28,15 @@ import testCases.TodayDate;
 import testPageObjects.Cylinder_Purchases;
 import testPageObjects.Equipment_Master;
 import testPageObjects.LoginPage;
+<<<<<<< HEAD
 import testUtilities.Sql_Delete_Insert;
+=======
+>>>>>>> a192858e0b1d6d8928e2db07eaf691695b681a20
 import testUtilities.Sql_Insert;
 
 public class Tc_001_Cylinder_Purchases extends BaseClass {
+	
+	 Sql_Insert sqlInsert = new Sql_Insert();
 
 	Sql_Insert sqlInsert = new Sql_Insert();
 	Sql_Delete_Insert SqlDelete = new Sql_Delete_Insert();
@@ -118,7 +126,10 @@ public class Tc_001_Cylinder_Purchases extends BaseClass {
 		Thread.sleep(2000);
 		Cp.ClickonSave();
 		logg.info(getClass().getName() + " - " + "Clicked On Save");
+<<<<<<< HEAD
 		Cp.ClickonLoadSub();
+=======
+>>>>>>> a192858e0b1d6d8928e2db07eaf691695b681a20
 
 		/*
 		 * String
@@ -196,8 +207,13 @@ public class Tc_001_Cylinder_Purchases extends BaseClass {
 		Cp.SelectProdfromlist2();
 		logg.info(getClass().getName() + " - " + "Select Product From list");
 		Thread.sleep(2000);
+<<<<<<< HEAD
 
 		// Cp.secondprod();
+=======
+		
+		//Cp.secondprod();
+>>>>>>> a192858e0b1d6d8928e2db07eaf691695b681a20
 		Cp.SelectLoadType2();
 		logg.info(getClass().getName() + " - " + "Select Load type");
 		Cp.EnterUnitRate2("120");
@@ -268,6 +284,7 @@ public class Tc_001_Cylinder_Purchases extends BaseClass {
 		logg.info(getClass().getName() + " - " + "Selected Received By Staff");
 		Thread.sleep(2000);
 
+<<<<<<< HEAD
 		String modulename1 = "Cylinder Purchase";
 		String invoicenumber1 = RandomInt;
 		String invoicedate1 = Todaydate;
@@ -531,6 +548,79 @@ public class Tc_001_Cylinder_Purchases extends BaseClass {
 		String act = tableData1.toString();
 
 		Assert.assertEquals(Exp, act);
+=======
+		
+		Cp.ClickonSave();
+		logg.info(getClass().getName() + " - " + "Clicked On Save");
+		
+			String modulename1="Cylinder Purchase";
+			String invoicenumber1 = RandomInt;
+	        String invoicedate1 = Todaydate;
+	        String stockrecvddate1 = Todaydate;
+	        String productName1 = Cp.firstprod();
+	        String loadtype1 = Cp.firstload();
+	        int unitrate1 = 100;
+	        String trucknumber1 = Vehiclenum;
+	        String drivername1 = "TestQa";
+	        String godown1 = Cp.secondgodwn();
+	        String receivedby1 = Cp.secondrecvdBy();
+	        
+	        
+	        String modulename2="Cylinder Purchase";
+			String invoicenumber2 = RandomInt;
+	        String invoicedate2 = Todaydate;
+	        String stockrecvddate2 = Todaydate;
+	        String productName2 = Cp.secondprod();
+	        String loadtype2 = Cp.secondload();
+	        int unitrate2 = 100;
+	        String trucknumber2 = Vehiclenum;
+	        String drivername2 = "TestQa";
+	        String godown2 = Cp.secondgodwn();
+	        String receivedby2 = Cp.secondrecvdBy();
+	        
+	        String modulename3="Cylinder Purchase";
+			String invoicenumber3 = RandomInt;
+	        String invoicedate3 = Todaydate;
+	        String stockrecvddate3 = Todaydate;
+	        String productName3 = Cp.thirdprod();
+	        String loadtype3 = Cp.thirdload();
+	        int unitrate3 = 100;
+	        String trucknumber3 = Vehiclenum;
+	        String drivername3 = "TestQa";
+	        String godown3 = Cp.secondgodwn();
+	        String receivedby3 = Cp.thirdrecvdBy();
+	        
+	        String modulename4="Cylinder Purchase";
+			String invoicenumber4 = RandomInt;
+	        String invoicedate4 = Todaydate;
+	        String stockrecvddate4 = Todaydate;
+	        String productName4 = Cp.fourthprod();
+	        String loadtype4 = Cp.fourthload();
+	        int unitrate4 = 100;
+	        String trucknumber4 = Vehiclenum;
+	        String drivername4 = "TestQa";
+	        String godown4 = Cp.secondgodwn();
+	        String receivedby4 = Cp.fourthrecvdBy();
+
+	        // Call the insertDataToMySQL method with sample data
+	     // For the first data table
+	        sqlInsert.insertDataToMySQL1(modulename1, invoicenumber1, invoicedate1, stockrecvddate1, productName1, loadtype1, unitrate1,
+	                        trucknumber1, drivername1, godown1, receivedby1);
+
+	        // For the second data table
+	        sqlInsert.insertDataToMySQL2(modulename2, invoicenumber2, invoicedate2, stockrecvddate2, productName2, loadtype2, unitrate2,
+	                        trucknumber2, drivername2, godown2, receivedby2);
+
+	        // For the third data table
+	        sqlInsert.insertDataToMySQL3(modulename3, invoicenumber3, invoicedate3, stockrecvddate3, productName3, loadtype3, unitrate3,
+	                        trucknumber3, drivername3, godown3, receivedby3);
+
+	        // For the fourth data table
+	        sqlInsert.insertDataToMySQL4(modulename4, invoicenumber4, invoicedate4, stockrecvddate4, productName4, loadtype4, unitrate4,
+	                        trucknumber4, drivername4, godown4, receivedby4);
+
+
+>>>>>>> a192858e0b1d6d8928e2db07eaf691695b681a20
 	}
 
 	@AfterMethod(enabled = false)
