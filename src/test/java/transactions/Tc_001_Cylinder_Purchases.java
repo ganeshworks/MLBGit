@@ -335,7 +335,7 @@ public class Tc_001_Cylinder_Purchases extends BaseClass {
 
 		Cp.ClickonSave();
 		logg.info(getClass().getName() + " - " + "Clicked On Save");
-		//Cp.ClickonLoadSub();
+		 Cp.ClickonLoadSub();
 
 	}
 
@@ -422,9 +422,17 @@ public class Tc_001_Cylinder_Purchases extends BaseClass {
 
 			if (!columns.isEmpty()) {
 				WebElement firstColumn = columns.get(0);
-				System.out.println(firstColumn.getText());
+				String productName = firstColumn.getText();
+				// System.out.println(firstColumn.getText());
+				extractedValues.add(productName);
+				System.out.println("Extracted Values Are-"+productName);
 			}
+
 		}
+		System.out.println("testvalues-------"+extractedValues);
+		 
+		
+
 		driver.findElement(By.xpath("//button[@class='Modal_closeBtn__UVUsp']//*[name()='svg']")).click();
 		Thread.sleep(5000);
 		Cp.ClickonDeleteCard();
@@ -440,60 +448,90 @@ public class Tc_001_Cylinder_Purchases extends BaseClass {
 
 		Eq.dropdownselect();
 
-		 WebElement table111 = driver.findElement(By.xpath("//*[@id='root']/div[1]/div[3]/div[2]/div/div[3]/div/table"));
-	        List<WebElement> rows111 = table111.findElements(By.tagName("tr"));
-
-	        // Process rows from the second table
-	        for (WebElement row : rows111) {
-	            List<WebElement> columns = row.findElements(By.tagName("td"));
-	            if (!columns.isEmpty()) {
-	                String PRODNAME = columns.get(0).getText();
-
-	                // Check if the product name is in the extractedValues list
-	                if (extractedValues.contains(PRODNAME)) {
-	                    String UNITS = columns.get(1).getText();
-	                    String GST = columns.get(2).getText();
-	                    String HSNCODE = columns.get(3).getText();
-	                    String SECDEP = columns.get(4).getText();
-	                    String OPFULLS = columns.get(5).getText();
-	                    String OPEMPTIES = columns.get(6).getText();
-	                    String CURFULLS = columns.get(7).getText();
-	                    String CUREMP = columns.get(8).getText();
-	                    String EFFDATE = columns.get(9).getText();
-	                    String flag = "1";
-
-	                    // Insert the filtered data into the MySQL database
-	                    SqlDelete.insertDataToMySQL(PRODNAME, UNITS, GST, HSNCODE, SECDEP, OPFULLS, OPEMPTIES, CURFULLS, CUREMP, EFFDATE, flag);
-	                }
-
-	                for (WebElement column : columns) {
-	                    System.out.print(column.getText() + "\t");
-	                }
-	                System.out.println();
-	            }
-
 		WebElement table11 = driver.findElement(By.xpath("//*[@id=\"root\"]/div[1]/div[3]/div[2]/div/div[3]/div"));
+
 		List<WebElement> rows11 = table11.findElements(By.tagName("tr"));
+
+		for (WebElement row : rows11) {
+			List<WebElement> columns = row.findElements(By.tagName("td"));
+			if (!columns.isEmpty()) {
+
+				String PRODNAME = columns.get(0).getText();
+				String UNITS = columns.get(1).getText();
+				String GST = columns.get(2).getText();
+				String HSNCODE = columns.get(3).getText();
+				String SECDEP = columns.get(4).getText();
+				String OPFULLS = columns.get(5).getText();
+				String OPEMPTIES = columns.get(6).getText();
+				String CURFULLS = columns.get(7).getText();
+				String CUREMP = columns.get(8).getText();
+				String EFFDATE = columns.get(9).getText();
+				String flag = "1";
+				SqlDelete.insertDataToMySQL(PRODNAME, UNITS, GST, HSNCODE, SECDEP, OPFULLS, OPEMPTIES, CURFULLS, CUREMP,
+						EFFDATE, flag);
+			}
+			for (WebElement column : columns) {
+				System.out.print(column.getText() + "\t");
+			}
+			System.out.println();
+		}
+
+		WebElement table111 = driver.findElement(By.xpath("//*[@id='root']/div[1]/div[3]/div[2]/div/div[3]/div"));
+		List<WebElement> rows111 = table111.findElements(By.tagName("tr"));
+
+		// Process rows from the second table
+		for (WebElement row : rows111) {
+			List<WebElement> columns = row.findElements(By.tagName("td"));
+
+			if (!columns.isEmpty()) {
+				String PRODNAME = columns.get(0).getText();
+				System.out.println("prods---"+PRODNAME);
+
+				
+				// Check if the product name is in the extractedValues list
+				if (extractedValues.contains(PRODNAME)) {
+					System.out.println("nene");
+					String UNITS = columns.get(1).getText();
+					String GST = columns.get(2).getText();
+					String HSNCODE = columns.get(3).getText();
+					String SECDEP = columns.get(4).getText();
+					String OPFULLS = columns.get(5).getText();
+					String OPEMPTIES = columns.get(6).getText();
+					String CURFULLS = columns.get(7).getText();
+					String CUREMP = columns.get(8).getText();
+					String EFFDATE = columns.get(9).getText();
+					String flag = "2";
+
+					// Insert the filtered data into the MySQL database
+					SqlDelete.insertDataToMySQL(PRODNAME, UNITS, GST, HSNCODE, SECDEP, OPFULLS, OPEMPTIES, CURFULLS,
+							CUREMP, EFFDATE, flag);
+				}
+
+				for (WebElement column : columns) {
+					System.out.print(column.getText() + "\t");
+				}
+			}
+			System.out.println();
+		}
+
+		WebElement table1111 = driver.findElement(By.xpath("//*[@id=\"root\"]/div[1]/div[3]/div[2]/div/div[3]/div"));
+		List<WebElement> rows1111 = table1111.findElements(By.tagName("tr"));
 		StringBuilder tableData1 = new StringBuilder();
 
-		for (WebElement row1 : rows11) {
+		for (WebElement row1 : rows1111) {
 			List<WebElement> columns2 = row1.findElements(By.tagName("td"));
 
 			for (WebElement column : columns2) {
 				tableData1.append(column.getText()).append("\t");
 			}
-			tableData1.append("\n"); // Add a new line for each row
+			tableData1.append("\n");
+			// Add a new line for each row
 		}
 		String Exp = tableData.toString();
 		String act = tableData1.toString();
 
 		Assert.assertEquals(Exp, act);
-		}
-
 	}
-	
-
-	
 
 	@AfterMethod(enabled = false)
 	public void Aftermthd(ITestResult Tr) throws Exception {

@@ -64,12 +64,17 @@ public class Reporting extends TestListenerAdapter {
 
 		
 		
-		  logger = extent.createTest(tr.getName()); logger.log(Status.FAIL,
-		  MarkupHelper.createLabel(tr.getName(), ExtentColor.RED)); String path =
-		  System.getProperty("user.dir") + "/SS/" + ".png"; File f = new File(path); if
-		  (f.exists()) { try { logger.fail("screenshot is" +
-		  logger.addScreenCaptureFromPath(path)); } catch (Exception e) {
-		  e.printStackTrace(); } }
+		  logger = extent.createTest(tr.getName());
+		  logger.log(Status.FAIL,MarkupHelper.createLabel(tr.getName(), ExtentColor.RED)); 
+		  String path = System.getProperty("user.dir") + "/SS/" + ".png"; File f = new File(path); 
+		  if(f.exists()) 
+		  { 
+			  try { 
+				  logger.fail("screenshot is" + logger.addScreenCaptureFromPath(path));
+				  }
+			  catch (Exception e) {
+		  
+				  e.printStackTrace(); } }
 		 
 	}
 

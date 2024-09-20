@@ -44,7 +44,7 @@ public class Nc_Dbc_Transactions {
 		driver.findElement(ItemDrop).click();
 		WebElement ss = driver.findElement(ItemDrop);
 		Select s = new Select(ss);
-		s.selectByIndex(1);
+		s.selectByIndex(3);
 	}
 	public void ClickOnAdd() {
 		driver.findElement(AddNcDbc).click();

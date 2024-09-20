@@ -8,7 +8,6 @@
           <include name="setup"/>
           <include name="Aftermthd"/>
           <include name="Delete"/>
-          <include name="multi_cyl_Purchase"/>
         </methods>
       </class> <!-- transactions.Tc_001_Cylinder_Purchases -->
     </classes>

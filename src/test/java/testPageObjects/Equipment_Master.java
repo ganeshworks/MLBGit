@@ -14,7 +14,7 @@ public class Equipment_Master {
 		driver = d;
 	}
 
-	By MasterClick = By.xpath("//div[contains(text(),'Master Data')]");
+	By MasterClick = By.xpath("//*[@id=\"root\"]/div[1]/div[1]/div/div[3]/div[2]");
 	By ProductClick = By.xpath("/html/body/div/div[1]/div[1]/div/section/div[1]/div[2]");
 	By EquipmentClick = By.xpath("//*[@id=\"root\"]/div[1]/div[1]/div/section/div[2]/div[1]/div[2]");
 	By Drpdown = By.xpath("//select[@class='AO-2nd-ent-select']");

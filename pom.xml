@@ -118,6 +118,16 @@
     <artifactId>HikariCP</artifactId>
     <version>4.0.3</version> <!-- Use the latest version available -->
 </dependency>
+<dependency>
+    <groupId>org.apache.poi</groupId>
+    <artifactId>poi</artifactId>
+    <version>5.2.3</version> <!-- Check for the latest version -->
+</dependency>
+<dependency>
+    <groupId>org.apache.poi</groupId>
+    <artifactId>poi-ooxml</artifactId>
+    <version>5.2.3</version> <!-- Check for the latest version -->
+</dependency>
 
 
 
