@@ -19,8 +19,8 @@ public class ARB_Purchase {
 	By AddBtn = By.xpath("//*[@id=\"root\"]/div[1]/div[3]/div[2]/div/div[1]/div[3]/div[1]");
 	By InvNo = By.xpath("//input[@placeholder='INV REF NO']");
 	By InvDate = By.xpath("//div[@class='Modal_modalContent__rRYZG']//div[2]//div[2]//input[1]");
-	By StockDate = By.xpath("/html[1]/body[1]/div[1]/div[1]/div[3]/div[2]/div[1]/div[6]/div[1]/div[2]/div[1]/div[1]/div[3]/div[2]/input[1]");
-	By Venddrop = By.xpath("//*[@id=\"root\"]/div[1]/div[3]/div[2]/div/div[6]/div/div[2]/div/div[1]/div[4]/select");
+	By StockDate = By.xpath("//div[@class='layout-body']//div[3]//div[2]//input[1]");
+	By Venddrop = By.xpath("//div[@class='flex aic gap10 credit-limit']//div[4]//select[1]");
 	By RevCharge = By.xpath("//div[@class='flex aic gap10 credit-limit']//div[1]//div[1]//select[1]");
 	By PoDrop = By.xpath("//div[@class='Modal_modalContent__rRYZG']//div[2]//div[1]//select[1]");
 	By PODate = By.xpath("//div[@class='flex aic gap10 credit-limit']//div//input[@type='date']");
@@ -33,7 +33,7 @@ public class ARB_Purchase {
 	By DriverName = By.xpath("//input[@placeholder='DRIVER NAME']");
 	By RecevdBy = By.xpath("//td[11]//div[1]//select[1]");
 	By AddRow = By
-			.xpath("//*[@id=\"root\"]/div[1]/div[3]/div[2]/div/div[6]/div/div[2]/div/div[5]/div[1]");
+			.xpath("//div[contains(@class,'flex aic gap10')]//div[@role='button'][normalize-space()='ADD']");
 
 	// 2nd
 

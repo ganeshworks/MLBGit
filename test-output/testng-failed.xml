@@ -3,23 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-<<<<<<< HEAD
-      <class name="transactions.Tc_001_Cylinder_Purchases">
-        <methods>
-          <include name="setup"/>
-          <include name="Aftermthd"/>
-          <include name="Delete"/>
-        </methods>
-      </class> <!-- transactions.Tc_001_Cylinder_Purchases -->
-=======
       <class name="transactions.Tc_003_OtherPurchases">
         <methods>
+          <include name="expencesYesItcYes"/>
           <include name="setup"/>
-          <include name="expensesNo"/>
           <include name="Aftermthd"/>
         </methods>
       </class> <!-- transactions.Tc_003_OtherPurchases -->
->>>>>>> a192858e0b1d6d8928e2db07eaf691695b681a20
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

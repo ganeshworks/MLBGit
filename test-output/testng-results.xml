@@ -1,44 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<<<<<<< HEAD
-<testng-results ignored="1" total="4" passed="2" failed="1" skipped="0">
+<testng-results ignored="3" total="4" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-08-28T11:07:18 IST" name="Default suite" finished-at="2024-08-28T11:08:38 IST" duration-ms="80507">
+  <suite started-at="2024-10-21T15:54:05 IST" name="Default suite" finished-at="2024-10-21T15:54:12 IST" duration-ms="6819">
     <groups>
     </groups>
-    <test started-at="2024-08-28T11:07:18 IST" name="Default test" finished-at="2024-08-28T11:08:38 IST" duration-ms="80507">
-      <class name="transactions.Tc_001_Cylinder_Purchases">
-        <test-method is-config="true" signature="setup()[pri:0, instance:transactions.Tc_001_Cylinder_Purchases@a776e]" started-at="2024-08-28T11:07:18 IST" name="setup" finished-at="2024-08-28T11:07:19 IST" duration-ms="1486" status="PASS">
+    <test started-at="2024-10-21T15:54:05 IST" name="Default test" finished-at="2024-10-21T15:54:12 IST" duration-ms="6819">
+      <class name="transactions.Tc_003_OtherPurchases">
+        <test-method is-config="true" signature="setup()[pri:0, instance:transactions.Tc_003_OtherPurchases@1a45193b]" started-at="2024-10-21T15:54:05 IST" name="setup" finished-at="2024-10-21T15:54:06 IST" duration-ms="1684" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="login()[pri:1, instance:transactions.Tc_001_Cylinder_Purchases@a776e]" started-at="2024-08-28T11:07:19 IST" name="login" finished-at="2024-08-28T11:07:42 IST" duration-ms="22518" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method signature="multi_cyl_Purchase()[pri:2, instance:transactions.Tc_001_Cylinder_Purchases@a776e]" started-at="2024-08-28T11:07:42 IST" name="multi_cyl_Purchase" finished-at="2024-08-28T11:08:37 IST" duration-ms="55354" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- multi_cyl_Purchase -->
-        <test-method signature="Delete()[pri:3, instance:transactions.Tc_001_Cylinder_Purchases@a776e]" started-at="2024-08-28T11:08:37 IST" name="Delete" finished-at="2024-08-28T11:08:38 IST" duration-ms="1112" status="FAIL">
-          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+        <test-method signature="expencesYesItcYes()[pri:1, instance:transactions.Tc_003_OtherPurchases@1a45193b]" started-at="2024-10-21T15:54:06 IST" name="expencesYesItcYes" finished-at="2024-10-21T15:54:12 IST" duration-ms="5085" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[element click intercepted: Element <div class="list-title fs15">...</div> is not clickable at point (131, 135). Other element would receive the click: <div style="background-color: rgba(0, 0, 0, 0.2); width: 100vw; height: 100vh; z-index: 10; top: 50%; left: 50%; transform: translate(-50%, -50%); position: fixed;">...</div>
-  (Session info: chrome=128.0.6613.85)
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(text(),'Transactions')]"}
+  (Session info: chrome=130.0.6723.58)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-4L4F65Q', ip: '192.168.1.17', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4'
+System info: host: 'DESKTOP-4L4F65Q', ip: '192.168.1.8', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.85, chrome: {chromedriverVersion: 128.0.6613.84 (606aa55c7d68..., userDataDir: C:\Users\DELL\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49831}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 33a4f5b471114bcca1022d2bbff91dee]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.58, chrome: {chromedriverVersion: 130.0.6723.58 (3a50e012e4c9..., userDataDir: C:\Users\DELL\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53142}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a244fdf0aae6ec5f2b729285e62c68c6
+*** Element info: {Using=xpath, value=//div[contains(text(),'Transactions')]}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <div class="list-title fs15">...</div> is not clickable at point (131, 135). Other element would receive the click: <div style="background-color: rgba(0, 0, 0, 0.2); width: 100vw; height: 100vh; z-index: 10; top: 50%; left: 50%; transform: translate(-50%, -50%); position: fixed;">...</div>
-  (Session info: chrome=128.0.6613.85)
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(text(),'Transactions')]"}
+  (Session info: chrome=130.0.6723.58)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-4L4F65Q', ip: '192.168.1.17', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4'
+System info: host: 'DESKTOP-4L4F65Q', ip: '192.168.1.8', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.4'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.85, chrome: {chromedriverVersion: 128.0.6613.84 (606aa55c7d68..., userDataDir: C:\Users\DELL\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49831}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 33a4f5b471114bcca1022d2bbff91dee
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.58, chrome: {chromedriverVersion: 130.0.6723.58 (3a50e012e4c9..., userDataDir: C:\Users\DELL\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53142}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a244fdf0aae6ec5f2b729285e62c68c6
+*** Element info: {Using=xpath, value=//div[contains(text(),'Transactions')]}
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -50,10 +45,12 @@ at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCo
 at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-at testPageObjects.Equipment_Master.ClickonMasterData(Equipment_Master.java:76)
-at transactions.Tc_001_Cylinder_Purchases.Delete(Tc_001_Cylinder_Purchases.java:352)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at transactions.Other_Purchases.ClickonTransactions(Other_Purchases.java:143)
+at transactions.Tc_003_OtherPurchases.expencesYesItcYes(Tc_003_OtherPurchases.java:67)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -84,34 +81,11 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Delete -->
-      </class> <!-- transactions.Tc_001_Cylinder_Purchases -->
-=======
-<testng-results ignored="2" total="4" passed="2" failed="0" skipped="0">
-  <reporter-output>
-  </reporter-output>
-  <suite started-at="2024-04-16T19:18:32 IST" name="Default suite" finished-at="2024-04-16T19:19:36 IST" duration-ms="63194">
-    <groups>
-    </groups>
-    <test started-at="2024-04-16T19:18:32 IST" name="Default test" finished-at="2024-04-16T19:19:36 IST" duration-ms="63194">
-      <class name="transactions.Tc_003_OtherPurchases">
-        <test-method is-config="true" signature="setup()[pri:0, instance:transactions.Tc_003_OtherPurchases@42f48531]" started-at="2024-04-16T19:18:32 IST" name="setup" finished-at="2024-04-16T19:18:34 IST" duration-ms="1708" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="login()[pri:1, instance:transactions.Tc_003_OtherPurchases@42f48531]" started-at="2024-04-16T19:18:34 IST" name="login" finished-at="2024-04-16T19:18:39 IST" duration-ms="5094" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method signature="expensesYesItcNo()[pri:2, instance:transactions.Tc_003_OtherPurchases@42f48531]" started-at="2024-04-16T19:18:39 IST" name="expensesYesItcNo" finished-at="2024-04-16T19:19:36 IST" duration-ms="56338" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- expensesYesItcNo -->
+        </test-method> <!-- expencesYesItcYes -->
       </class> <!-- transactions.Tc_003_OtherPurchases -->
->>>>>>> a192858e0b1d6d8928e2db07eaf691695b681a20
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

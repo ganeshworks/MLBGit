@@ -20,7 +20,7 @@ public class Cylinder_Purchases {
 	By OmcType = By.xpath("//div[@class='flex aic gap10 credit-limit']//div//select[@class='drop-select']");
 	By RefNo = By.xpath("//input[@placeholder='INV REF NO']");
 	By InvDate = By.xpath("//div[@class='layout-body']//div[3]//div[2]//input[1]");
-	By StockDate = By.xpath("//div[4]//div[2]//input[1]");
+	By StockDate = By.xpath("//*[@id=\"root\"]/div[1]/div[3]/div[2]/div/div[4]/div/div[2]/div/div[1]/div[4]/div[2]/input");
 	By Proddrop = By.xpath("//td[1]//div[1]//select[1]");
 	By OneTwoLoad = By.xpath("//td[3]//div[1]//select[1]");
 	By UnitRate = By.xpath("//input[@placeholder='UNIT RATE']");
@@ -65,9 +65,9 @@ public class Cylinder_Purchases {
 	By DriverName4 = By.xpath("//tr[5]//td[11]//div[1]//div[1]//input[1]");
 	By GodwnDrop4 = By.xpath("//tr[5]//td[12]//div[1]//select[1]");
 	By RecevdBy4 = By.xpath("//tr[5]//td[13]//div[1]//select[1]");
-<<<<<<< HEAD
+//<<<<<<< HEAD
 	
-	By LoadAccSub=By.xpath("//*[@id=\"root\"]/div[1]/div[3]/div[2]/div/div[8]/div/div[2]/div[2]/div[2]");
+	By LoadAccSub=By.xpath("//div[normalize-space()='SUBMIT']");
 	
 	By DeleteCard=By.xpath("//body/div[@id='root']/div[@class='layout-main']/div[@class='layout-body']/div[@class='layout-outlet']/div[@class='container']/div[@class='grid']/div[1]/div[2]//*[name()='svg']//*[name()='path' and contains(@d,'M135.2 17.')]");
 	By SubmitDelete=By.xpath("//div[normalize-space()='DELETE']");
@@ -77,11 +77,11 @@ public class Cylinder_Purchases {
 	By CardView=By.xpath("/html[1]/body[1]/div[1]/div[1]/div[3]/div[2]/div[1]/div[3]/div[1]/div[2]/div[1]/div[1]");
 	
 	
-=======
+//=======
 
-	By Save = By.xpath("//div[normalize-space()='SAVE']");
+	//By Save = By.xpath("//div[normalize-space()='SAVE']");
 
->>>>>>> a192858e0b1d6d8928e2db07eaf691695b681a20
+//>>>>>>> a192858e0b1d6d8928e2db07eaf691695b681a20
 	public void ClickonTransactions() {
 		driver.findElement(Transactions).click();
 	}
@@ -424,12 +424,12 @@ public class Cylinder_Purchases {
 		
 		
 	}
-<<<<<<< HEAD
+//<<<<<<< HEAD
 	public void ClickonLoadSub() {
 		driver.findElement(LoadAccSub).click();
 	}
-=======
->>>>>>> a192858e0b1d6d8928e2db07eaf691695b681a20
+//=======
+//>>>>>>> a192858e0b1d6d8928e2db07eaf691695b681a20
 
 	public void ClickonSave() {
 		driver.findElement(Save).click();
@@ -438,7 +438,7 @@ public class Cylinder_Purchases {
 	public void ClickonAddRow() {
 		driver.findElement(AddRow).click();
 	}
-<<<<<<< HEAD
+//<<<<<<< HEAD
 	
 	public void ClickonDeleteCard() {
 		driver.findElement(DeleteCard).click();
@@ -451,7 +451,7 @@ public class Cylinder_Purchases {
 		driver.findElement(CardView).click();
 	}
 	
-=======
+//=======
 
->>>>>>> a192858e0b1d6d8928e2db07eaf691695b681a20
+//>>>>>>> a192858e0b1d6d8928e2db07eaf691695b681a20
 }

@@ -6,13 +6,14 @@
   </listeners>
   <test thread-count="5" name="MyLpgBook login(failed)">
     <classes>
-      <class name="testCases.Tc_Equipment">
+      <class name="transactions.Tc_003_OtherPurchases">
         <methods>
+          <include name="expencesYesItcYes"/>
           <include name="setup"/>
-          <include name="testEquip"/>
           <include name="Aftermthd"/>
+          <include name="expensesYesItcNo"/>
         </methods>
-      </class> <!-- testCases.Tc_Equipment -->
+      </class> <!-- transactions.Tc_003_OtherPurchases -->
     </classes>
   </test> <!-- MyLpgBook login(failed) -->
 </suite> <!-- Failed suite [com.LpgBooksWebsite] -->

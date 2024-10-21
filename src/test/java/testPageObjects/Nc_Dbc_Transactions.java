@@ -44,11 +44,11 @@ public class Nc_Dbc_Transactions {
 		driver.findElement(ItemDrop).click();
 		WebElement ss = driver.findElement(ItemDrop);
 		Select s = new Select(ss);
-<<<<<<< HEAD
+//<<<<<<< HEAD
 		s.selectByIndex(3);
-=======
+//=======
 		s.selectByIndex(1);
->>>>>>> a192858e0b1d6d8928e2db07eaf691695b681a20
+//>>>>>>> a192858e0b1d6d8928e2db07eaf691695b681a20
 	}
 	public void ClickOnAdd() {
 		driver.findElement(AddNcDbc).click();

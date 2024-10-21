@@ -12,12 +12,11 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.StaleElementReferenceException;
 import org.openqa.selenium.TakesScreenshot;
-<<<<<<< HEAD
+
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-=======
->>>>>>> a192858e0b1d6d8928e2db07eaf691695b681a20
+
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.Test;
@@ -28,15 +27,14 @@ import testCases.TodayDate;
 import testPageObjects.Cylinder_Purchases;
 import testPageObjects.Equipment_Master;
 import testPageObjects.LoginPage;
-<<<<<<< HEAD
+
 import testUtilities.Sql_Delete_Insert;
-=======
->>>>>>> a192858e0b1d6d8928e2db07eaf691695b681a20
+
 import testUtilities.Sql_Insert;
 
 public class Tc_001_Cylinder_Purchases extends BaseClass {
 	
-	 Sql_Insert sqlInsert = new Sql_Insert();
+	 //Sql_Insert sqlInsert = new Sql_Insert();
 
 	Sql_Insert sqlInsert = new Sql_Insert();
 	Sql_Delete_Insert SqlDelete = new Sql_Delete_Insert();
@@ -74,14 +72,14 @@ public class Tc_001_Cylinder_Purchases extends BaseClass {
 
 	}
 
-	@Test(enabled = false)
+	@Test(priority = 2)
 	public void cyl_Purchase() throws Exception {
 		TodayDate td = new TodayDate();
 
 		String formattedDate = TodayDate.getFormattedDate();
 
 		Cylinder_Purchases Cp = new Cylinder_Purchases(driver);
-
+		
 		Cp.ClickonTransactions();
 		logg.info(getClass().getName() + " - " + "Clicked On Transactions");
 		Thread.sleep(5000);
@@ -95,11 +93,11 @@ public class Tc_001_Cylinder_Purchases extends BaseClass {
 		Thread.sleep(2000);
 		Cp.SelectOmcfromlist();
 		logg.info(getClass().getName() + " - " + "Select Omc Plant From List");
-		Cp.EnterRefNo("@-*ab123");
+		Cp.EnterRefNo(RandomInt);
 		logg.info(getClass().getName() + " - " + "Entered Reference Number");
 		Cp.EnterInvDate(Todaydate);
 		logg.info(getClass().getName() + " - " + "Entered Invoice Date");
-		Thread.sleep(2000);
+		Thread.sleep(5000);
 		Cp.EnterStckRecDate(Todaydate);
 		logg.info(getClass().getName() + " - " + "Entered Stock Received Date");
 		Cp.SelectProdfromlist();
@@ -107,7 +105,7 @@ public class Tc_001_Cylinder_Purchases extends BaseClass {
 		Thread.sleep(2000);
 		Cp.SelectLoadType();
 		logg.info(getClass().getName() + " - " + "Select Load type");
-		Cp.EnterUnitRate(RandomInt);
+		Cp.EnterUnitRate(Random3);
 		logg.info(getClass().getName() + " - " + "Entered UnitRate");
 		Thread.sleep(2000);
 		Cp.EnterQanty("100");
@@ -126,10 +124,11 @@ public class Tc_001_Cylinder_Purchases extends BaseClass {
 		Thread.sleep(2000);
 		Cp.ClickonSave();
 		logg.info(getClass().getName() + " - " + "Clicked On Save");
-<<<<<<< HEAD
+//<<<<<<< HEAD
+		Thread.sleep(5000);
 		Cp.ClickonLoadSub();
-=======
->>>>>>> a192858e0b1d6d8928e2db07eaf691695b681a20
+
+
 
 		/*
 		 * String
@@ -151,7 +150,7 @@ public class Tc_001_Cylinder_Purchases extends BaseClass {
 		 */
 	}
 
-	@Test(priority = 2)
+	@Test(enabled = false)
 	public void multi_cyl_Purchase() throws Exception {
 		TodayDate td = new TodayDate();
 
@@ -207,13 +206,10 @@ public class Tc_001_Cylinder_Purchases extends BaseClass {
 		Cp.SelectProdfromlist2();
 		logg.info(getClass().getName() + " - " + "Select Product From list");
 		Thread.sleep(2000);
-<<<<<<< HEAD
 
 		// Cp.secondprod();
-=======
 		
 		//Cp.secondprod();
->>>>>>> a192858e0b1d6d8928e2db07eaf691695b681a20
 		Cp.SelectLoadType2();
 		logg.info(getClass().getName() + " - " + "Select Load type");
 		Cp.EnterUnitRate2("120");
@@ -284,7 +280,6 @@ public class Tc_001_Cylinder_Purchases extends BaseClass {
 		logg.info(getClass().getName() + " - " + "Selected Received By Staff");
 		Thread.sleep(2000);
 
-<<<<<<< HEAD
 		String modulename1 = "Cylinder Purchase";
 		String invoicenumber1 = RandomInt;
 		String invoicedate1 = Todaydate;
@@ -356,7 +351,7 @@ public class Tc_001_Cylinder_Purchases extends BaseClass {
 
 	}
 
-	@Test(priority = 3)
+	@Test(enabled = false)
 	public void Delete() throws Exception {
 		TodayDate td = new TodayDate();
 
@@ -548,7 +543,6 @@ public class Tc_001_Cylinder_Purchases extends BaseClass {
 		String act = tableData1.toString();
 
 		Assert.assertEquals(Exp, act);
-=======
 		
 		Cp.ClickonSave();
 		logg.info(getClass().getName() + " - " + "Clicked On Save");
@@ -620,7 +614,6 @@ public class Tc_001_Cylinder_Purchases extends BaseClass {
 	                        trucknumber4, drivername4, godown4, receivedby4);
 
 
->>>>>>> a192858e0b1d6d8928e2db07eaf691695b681a20
 	}
 
 	@AfterMethod(enabled = false)

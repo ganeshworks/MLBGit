@@ -55,19 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<<<<<<< HEAD
-<td>Tests passed/Failed/Skipped:</td><td>2/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Wed Aug 28 11:07:18 IST 2024</td>
+<td>Started on:</td><td>Mon Oct 21 15:54:05 IST 2024</td>
 </tr>
-<tr><td>Total time:</td><td>80 seconds (80507 ms)</td>
-=======
-<td>Tests passed/Failed/Skipped:</td><td>2/0/0</td>
-</tr><tr>
-<td>Started on:</td><td>Tue Apr 16 19:18:32 IST 2024</td>
-</tr>
-<tr><td>Total time:</td><td>63 seconds (63194 ms)</td>
->>>>>>> a192858e0b1d6d8928e2db07eaf691695b681a20
+<tr><td>Total time:</td><td>6 seconds (6819 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,7 +67,6 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<<<<<<< HEAD
 <table width='100%' border='1' class='invocation-failed'>
 <tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -84,14 +75,16 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='transactions.Tc_001_Cylinder_Purchases.Delete()'><b>Delete</b><br>Test class: transactions.Tc_001_Cylinder_Purchases</td>
-<td><div><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;div class=&quot;list-title fs15&quot;&gt;...&lt;/div&gt; is not clickable at point (131, 135). Other element would receive the click: &lt;div style=&quot;background-color: rgba(0, 0, 0, 0.2); width: 100vw; height: 100vh; z-index: 10; top: 50%; left: 50%; transform: translate(-50%, -50%); position: fixed;&quot;&gt;...&lt;/div&gt;
-  (Session info: chrome=128.0.6613.85)
+<td title='transactions.Tc_003_OtherPurchases.expencesYesItcYes()'><b>expencesYesItcYes</b><br>Test class: transactions.Tc_003_OtherPurchases</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[contains(text(),&apos;Transactions&apos;)]&quot;}
+  (Session info: chrome=130.0.6723.58)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DESKTOP-4L4F65Q&apos;, ip: &apos;192.168.1.17&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.4&apos;
+System info: host: &apos;DESKTOP-4L4F65Q&apos;, ip: &apos;192.168.1.8&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.4&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.85, chrome: {chromedriverVersion: 128.0.6613.84 (606aa55c7d68..., userDataDir: C:\Users\DELL\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49831}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 33a4f5b471114bcca1022d2bbff91dee
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.58, chrome: {chromedriverVersion: 130.0.6723.58 (3a50e012e4c9..., userDataDir: C:\Users\DELL\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53142}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a244fdf0aae6ec5f2b729285e62c68c6
+*** Element info: {Using=xpath, value=//div[contains(text(),&apos;Transactions&apos;)]}
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -103,10 +96,12 @@ Session ID: 33a4f5b471114bcca1022d2bbff91dee
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-	at testPageObjects.Equipment_Master.ClickonMasterData(Equipment_Master.java:76)
-	at transactions.Tc_001_Cylinder_Purchases.Delete(Tc_001_Cylinder_Purchases.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at transactions.Other_Purchases.ClickonTransactions(Other_Purchases.java:143)
+	at transactions.Tc_003_OtherPurchases.expencesYesItcYes(Tc_003_OtherPurchases.java:67)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -135,14 +130,16 @@ Session ID: 33a4f5b471114bcca1022d2bbff91dee
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace658781536", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace658781536'><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;div class=&quot;list-title fs15&quot;&gt;...&lt;/div&gt; is not clickable at point (131, 135). Other element would receive the click: &lt;div style=&quot;background-color: rgba(0, 0, 0, 0.2); width: 100vw; height: 100vh; z-index: 10; top: 50%; left: 50%; transform: translate(-50%, -50%); position: fixed;&quot;&gt;...&lt;/div&gt;
-  (Session info: chrome=128.0.6613.85)
+</pre></div><a href='#' onClick='toggleBox("stack-trace762604772", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace762604772'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[contains(text(),&apos;Transactions&apos;)]&quot;}
+  (Session info: chrome=130.0.6723.58)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DESKTOP-4L4F65Q&apos;, ip: &apos;192.168.1.17&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.4&apos;
+System info: host: &apos;DESKTOP-4L4F65Q&apos;, ip: &apos;192.168.1.8&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.4&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 128.0.6613.85, chrome: {chromedriverVersion: 128.0.6613.84 (606aa55c7d68..., userDataDir: C:\Users\DELL\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49831}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 33a4f5b471114bcca1022d2bbff91dee
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.58, chrome: {chromedriverVersion: 130.0.6723.58 (3a50e012e4c9..., userDataDir: C:\Users\DELL\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53142}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a244fdf0aae6ec5f2b729285e62c68c6
+*** Element info: {Using=xpath, value=//div[contains(text(),&apos;Transactions&apos;)]}
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -154,10 +151,12 @@ Session ID: 33a4f5b471114bcca1022d2bbff91dee
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-	at testPageObjects.Equipment_Master.ClickonMasterData(Equipment_Master.java:76)
-	at transactions.Tc_001_Cylinder_Purchases.Delete(Tc_001_Cylinder_Purchases.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at transactions.Other_Purchases.ClickonTransactions(Other_Purchases.java:143)
+	at transactions.Tc_003_OtherPurchases.expencesYesItcYes(Tc_003_OtherPurchases.java:67)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -187,40 +186,8 @@ Session ID: 33a4f5b471114bcca1022d2bbff91dee
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>1</td>
-<td>transactions.Tc_001_Cylinder_Purchases@a776e</td></tr>
-</table><p>
-=======
->>>>>>> a192858e0b1d6d8928e2db07eaf691695b681a20
-<table width='100%' border='1' class='invocation-passed'>
-<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<<<<<<< HEAD
-<td title='transactions.Tc_001_Cylinder_Purchases.login()'><b>login</b><br>Test class: transactions.Tc_001_Cylinder_Purchases</td>
-<td></td>
-<td>22</td>
-<td>transactions.Tc_001_Cylinder_Purchases@a776e</td></tr>
-<tr>
-<td title='transactions.Tc_001_Cylinder_Purchases.multi_cyl_Purchase()'><b>multi_cyl_Purchase</b><br>Test class: transactions.Tc_001_Cylinder_Purchases</td>
-<td></td>
-<td>55</td>
-<td>transactions.Tc_001_Cylinder_Purchases@a776e</td></tr>
-=======
-<td title='transactions.Tc_003_OtherPurchases.expensesYesItcNo()'><b>expensesYesItcNo</b><br>Test class: transactions.Tc_003_OtherPurchases</td>
-<td></td>
-<td>56</td>
-<td>transactions.Tc_003_OtherPurchases@42f48531</td></tr>
-<tr>
-<td title='transactions.Tc_003_OtherPurchases.login()'><b>login</b><br>Test class: transactions.Tc_003_OtherPurchases</td>
-<td></td>
 <td>5</td>
-<td>transactions.Tc_003_OtherPurchases@42f48531</td></tr>
->>>>>>> a192858e0b1d6d8928e2db07eaf691695b681a20
+<td>transactions.Tc_003_OtherPurchases@1a45193b</td></tr>
 </table><p>
 </body>
 </html>

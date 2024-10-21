@@ -38,7 +38,7 @@ public class Other_Purchases {
 	By Prodname3 = By.xpath("//tr[4]//td[1]//div[1]//div[1]//input[1]");
 	By Prodname4 = By.xpath("//tr[5]//td[1]//div[1]//div[1]//input[1]");
 	
-	By HSn = By.xpath("//input[@placeholder='HSN CODE']");
+	By HSn = By.xpath("//input[contains(@placeholder,'HSN / SAC CODE')]");
 	By HSn2 = By.xpath("//tr[3]//td[2]//div[1]//div[1]//input[1]");
 	By HSn3 = By.xpath("//tr[4]//td[2]//div[1]//div[1]//input[1]");
 	By HSn4 = By.xpath("//tr[5]//td[2]//div[1]//div[1]//input[1]");
@@ -48,7 +48,7 @@ public class Other_Purchases {
 	By GstDrop3 = By.xpath("//tr[4]//td[3]//div[1]//select[1]");
 	By GstDrop4 = By.xpath("//tr[5]//td[3]//div[1]//select[1]");
 	
-	By MinorheadDrop = By.xpath("//td[4]//div[1]//select[1]");
+	By MinorheadDrop = By.xpath("//input[contains(@placeholder,'Minor Head')]");
 	By MinorheadDrop2 = By.xpath("//tr[3]//td[4]//div[1]//select[1]");
 	By MinorheadDrop3 = By.xpath("//tr[4]//td[4]//div[1]//select[1]");
 	By MinorheadDrop4 = By.xpath("//tr[5]//td[4]//div[1]//select[1]");

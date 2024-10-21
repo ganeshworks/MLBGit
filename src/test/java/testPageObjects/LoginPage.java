@@ -1,7 +1,10 @@
 package testPageObjects;
 
+
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.interactions.Actions;
 
 public class LoginPage {
 
@@ -19,10 +22,13 @@ public class LoginPage {
 	By Signout=By.xpath("/html/body/div/div[1]/div[3]/div[1]/div/div[2]/div[2]/div/div[2]/div[3]");
 	By ClickonSignout=By.xpath("//*[@id=\"root\"]/div[1]/div[3]/div[1]/div/div[2]/div[2]/div/div[3]/div/div[2]/div[2]/div[2]");
 	
+	//Actions a=new Actions(driver);
+	
 	
 	
 	public void AgencyId(String name) {
 		driver.findElement(Agencyid).sendKeys(name);
+		
 	}
 	
 	public void password(String name) {

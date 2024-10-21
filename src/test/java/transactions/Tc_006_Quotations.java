@@ -24,7 +24,7 @@ public class Tc_006_Quotations extends BaseClass {
 
 	Sql_Insert sqlInsert = new Sql_Insert();
 
-	@Test(priority = 1)
+	@Test(enabled = false)
 	public void login() {
 		driver.get(baseurl);
 		driver.manage().window().maximize();

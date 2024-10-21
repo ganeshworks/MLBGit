@@ -50,6 +50,8 @@ public class BaseClass {
 	public String Randomstring = Rd.randomstring();
 
 	public String RandomInt = Rd.randomInt();
+	
+	public String Random3=Rd.randomIntThree();
 
 	public String Vehiclenum = Rd.randomVehicleNum();
 

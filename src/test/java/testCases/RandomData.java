@@ -45,6 +45,20 @@ public class RandomData {
 		return stringValue;
 
 	}
+	public static String randomIntThree() {
+
+		Random random = new Random();
+
+		// Generate a random 8-digit number
+		int randomNumber = 100 + random.nextInt(900); // Generates a number between 10000000 and 99999999
+
+		System.out.println("Random 3-digit number: " + randomNumber);
+
+		String stringValue = Integer.toString(randomNumber);
+		
+		return stringValue;
+
+	}
 
 	public static String randomVehicleNum() {
 
@@ -76,6 +90,7 @@ public class RandomData {
 		randomstring();
 		randomInt();
 		randomVehicleNum();
+		randomIntThree();
 	}
 
 }

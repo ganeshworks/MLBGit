@@ -2,7 +2,9 @@ package testCases;
 
 import java.io.File;
 import java.text.SimpleDateFormat;
+import java.util.ArrayList;
 import java.util.Date;
+import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 import org.apache.commons.io.FileUtils;
@@ -10,11 +12,16 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.Test;
 
+import com.google.protobuf.Duration;
+
+import okio.Timeout;
 import testPageObjects.Equipment_Master;
 import testPageObjects.LoginPage;
 
@@ -45,7 +52,9 @@ public class Tc_001_Equipment_Master extends BaseClass {
 		 * driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 		 * l.ClickingOnSinout(); logg.info("Confirm For Signout");
 		 */
-
+		//List<WebElement> tst=new ArrayList<>(driver.findElements(By.tagName(RandomInt)));
+		
+		
 	}
 
 	@Test(priority = 2)
@@ -184,6 +193,9 @@ public class Tc_001_Equipment_Master extends BaseClass {
 		logg.info(getClass().getName() + "Clicked On Save");
 
 		Thread.sleep(3000);
+		
+		//WebDriverWait wait=new WebDriverWait(driver, 20);
+		
 	}
 	
 	@AfterMethod(enabled = false)
